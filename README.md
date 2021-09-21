@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Nome completo do aluno 1
 * Cristiane Fumagalli Navarro Martins
-* Nome completo do aluno 3
+* Denver Gonçalves Gomes
 * Nome completo do aluno 4
 
 ## Orientador
