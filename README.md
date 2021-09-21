@@ -14,7 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Cristiane Fumagalli Navarro Martins
 * Denver Gonçalves Gomes
 * Victor Ribeiro Gammaro
-* 
+* Aline Martins Candido 
 
 ## Orientador
 
