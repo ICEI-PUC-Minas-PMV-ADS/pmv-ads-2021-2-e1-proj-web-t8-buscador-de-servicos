@@ -10,7 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
+* Bruno Ribeiro Gammaro
 * Cristiane Fumagalli Navarro Martins
 * Denver Gonçalves Gomes
 * Nome completo do aluno 4
