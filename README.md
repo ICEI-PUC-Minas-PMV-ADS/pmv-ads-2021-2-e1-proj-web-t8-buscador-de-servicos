@@ -13,7 +13,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Bruno Ribeiro Gammaro
 * Cristiane Fumagalli Navarro Martins
 * Denver Gonçalves Gomes
-* Nome completo do aluno 4
+* Victor Ribeiro Gammaro
+* 
 
 ## Orientador
 
