@@ -16,6 +16,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Victor Ribeiro Gammaro
 * Aline Martins Candido 
 * Bruno Francisco Silva de Lima
+* Lucia Raquel Ramos Berger
 
 ## Orientador
 
