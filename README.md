@@ -15,6 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Denver Gonçalves Gomes
 * Victor Ribeiro Gammaro
 * Aline Martins Candido 
+* Bruno Francisco Silva de Lima
 
 ## Orientador
 
