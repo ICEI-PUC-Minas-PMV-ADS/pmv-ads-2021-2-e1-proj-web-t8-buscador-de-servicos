@@ -1,46 +1,25 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Nos últimos anos, as transformações que ocorreram no mundo desencadearam mudanças no estilo de vida das pessoas que são cada vez mais solicitadas a buscar alternativas para sua interação social. Com o estilo de vida no mundo atual onde homens e mulheres realizam múltiplas tarefas, envolvendo atividade profissional, estudo, atenção à família, cuidado com animais de estimação, cuidados com a casa, entre outras, surge a necessidade de buscar serviços terceirizados para diminuir a sobrecarga de tarefas diárias e manter um mínimo de qualidade de vida.  Decorrente disso, as pessoas procuram prestadores de serviços para auxiliar nas atividades domésticas, como: cuidadores de crianças, idosos e pets, serviços de limpeza, e profissionais que resolvam problemas elétricos e/ou hidráulicos, ou pequenas reformas na residência. Além disso, atividades como instalar uma prateleira, um suporte de TV ou um varal, são tarefas muitas vezes trabalhosas, que exigem tempo, e ferramentas que nem sempre estão disponíveis. Essas demandas são muitas vezes requisitadas com certa urgência por serem decorrentes de algum imprevisto. Assim, surge também a necessidade de utilização de meios mais ágeis e práticos, como a Internet para o tipo de serviço adequado à resolução do problema. Nesse sentido, a Internet se torna uma alternativa para o usuário encontrar prestador de serviço capaz de atender a esse tipo de demanda, envolvendo serviços domésticos.
+Por outro lado, a Internet e plataformas de economia compartilhada, através de aplicativos de startups, mostram-se como alternativas para pessoas desempregadas oferecerem trabalhos informais. Essa situação tornou-se ainda mais evidente com o início da pandemia por COVID-19, que foi declarada pela Organização Mundial da Saúde (OMS) em 11 de março de 2020. Atendendo às orientações por ela divulgadas, muitos setores da economia precisaram fechar como medida de contenção da propagação desse vírus, o que resultou no aumento do índice de desemprego. No terceiro trimestre de 2020, o país contava com 14,4 milhões de desempregados, com uma taxa de 14,6% de desocupação (INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA, 2020). Nesse contexto, muitas pessoas foram motivadas a procurar por trabalho informal em plataformas de economia compartilhada, através de aplicativos de startups, ferramentas resultantes dos efeitos tecnológicos da era informacional (SANTOS, 2021).
+Também segundo a agência de notícias do IBGE, em relatório divulgado em 30 de julho de 2021, a taxa de trabalhadores informais no Brasil era de 40%, representando 34,7 milhões de trabalhadores e segundo o Portal G1, o aplicativo de serviços GetNinjas registrou cerca de 400 mil novos profissionais na plataforma entre março e setembro de 2020, representando um aumento de 62% em relação ao ano anterior (CAVALLINI, 2020). Sendo assim, a criação de meios que facilitem o acesso desses trabalhadores a novos clientes, torna-se de extrema importância no atual contexto do país. 
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Conforme explicado anteriormente, o presente projeto pretende resolver o problema referente à limitação e dificuldade na busca por profissionais autônomos que realizem serviços domésticos de modo prático, rápido e eficiente. Além disso,  busca-se resolver a dificuldade de acesso do prestador de serviço aos seus clientes, possibilitando oportunidades de trabalho e consequentemente uma fonte de renda para profissionais que acabaram perdendo seus empregos formais durante a pandemia e que tiveram de se adaptar à nova realidade, realizando trabalhos autônomos informais.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo é facilitar o encontro de profissionais que realizam serviços pontuais, com pessoas que por falta de tempo, habilidade ou outros motivos não conseguem realizar esses serviços. Fazendo assim a integração entre cliente-prestador e prestador-cliente de maneira fácil, rápida e ágil aumentando a oferta de serviços e prestadores de uma região.  
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O alto nível de desemprego decorrente da crise econômica, que foi agravada pela pandemia por COVID-19, resultou no aumento do número de pessoas que precisaram procurar alternativas de trabalho visando sua própria sobrevivência.  Devido à dificuldade financeira, muitas pessoas foram “obrigadas” a se adaptarem a novos meios de ganhar seu sustento, como por exemplo, oferecendo serviços gerais a serem executados na residência do cliente. Por outro lado, é crescente a procura de usuários por prestadores de serviço em domicílio, porém muitos têm dificuldades em encontrar trabalhadores informais para atender às suas demandas, especialmente, na própria região. Nesse contexto, a Internet, tão utilizada no cotidiano das pessoas, torna-se um recurso prático, rápido e útil na busca pela solução desses problemas. A disponibilização de aplicativos de startups que possibilitem facilitar a comunicação entre o usuário e o prestador de serviços apresenta-se como uma ferramenta tecnológica atual que atende a necessidade de ambos os lados.  
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Com este trabalho, procura-se beneficiar qualquer pessoa que tenha acesso à Web e que esteja em busca de serviços domésticos ou queira oferecer esse tipo de serviço. Porém,  estima-se que os mais interessados seriam pessoas com com rotina agitada, que se preocupam em economizar tempo e ter fácil acesso a vários tipos de serviços, opções de horário e formas de pagamento em um mesmo local.
+Pensando nisso, estabeleceu-se como público alvo, homens e mulheres adultos, com idade entre 25 e 50 anos, residentes em cidades de médio e grande porte e economicamente ativas.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
