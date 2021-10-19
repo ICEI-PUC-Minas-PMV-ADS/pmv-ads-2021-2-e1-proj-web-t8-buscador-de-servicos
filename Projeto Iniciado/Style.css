@@ -1,0 +1,28 @@
+body{
+    background-color:#5F95B3;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    }
+h1{
+    color: darkgoldenrod;
+
+}
+
+
+form{
+    width: 50%;
+}
+header{
+    background-color: yellow;
+    border: black;
+    border-style: solid;
+}
+input{
+    width: 10cm;
+    height: 1cm;
+    font-size: 15px;
+}
+[list]{
+    font-style: italic;
+}
