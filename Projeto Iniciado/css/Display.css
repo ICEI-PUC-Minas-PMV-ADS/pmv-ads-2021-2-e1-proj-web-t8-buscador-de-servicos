@@ -2,18 +2,10 @@
 {
     font-size: 20px;
     margin-top: 60px;
-    display: flex;
-    width: 50%;
-    text-align: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: stretch;   
-    justify-content: center;
+    margin: 30px;
 }
 .CC
 {
-    float: left;
-    width: 50%;
     background-color: #07a5c3;
     opacity: 50%;
     color: #1c191a;
