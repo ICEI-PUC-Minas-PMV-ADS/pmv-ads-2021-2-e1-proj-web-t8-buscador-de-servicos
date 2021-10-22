@@ -23,3 +23,4 @@
   Com este trabalho, procura-se beneficiar qualquer pessoa que tenha acesso à Web e que esteja em busca de serviços domésticos ou queira oferecer esse tipo de serviço. Porém,  estima-se que os mais interessados seriam pessoas com com rotina agitada, que se preocupam em economizar tempo e ter fácil acesso a vários tipos de serviços, opções de horário e formas de pagamento em um mesmo local.
   Pensando nisso, estabeleceu-se como público alvo, homens e mulheres adultos, com idade entre 25 e 50 anos, residentes em cidades de médio e grande porte e economicamente ativas.
 
+TESTE 
