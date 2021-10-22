@@ -6,11 +6,12 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
             <title>  BSG - Buscador de Serviços Gerais </title>
             <link rel="stylesheet" href="/Projeto Iniciado/css/Format.css">
+            <link rel="stylesheet" href="css/Display.css">
 
         </head>
         
         <body>
-            <header class="menu-principal">
+            <header class="menu">
                 <div id="Logo">
                     <img src="/Projeto Iniciado/img/Logo L branca.png" width="250" height="250">
                 </div>
@@ -23,20 +24,32 @@
                     <a href="ajuda.html">ajuda</a>
                 </div>
             </header>
-            <div id="divBusca">
-                <input type="text" id="txtBusca" placeholder="Buscar..."/>
+            <div id="Busca">
+                <input type="text" id="txtBusca" placeholder="Serviços . . ."/>
                 <button id="btnBusca">Buscar</button>
             </div>
-            <div id="CF">
+            <div id="QS">
                 <h1>Quem somos</h1>
-                Nosso site busca ajudar na localização e comunicação de pessoas que procuram profissionais de serviços gerais fazendo-se como um intermediario entra cliente-prestador.
-                <br> 
-
-            </div>
-            <div id="CC">
-
-            </div>
-            <div id="CP">
+                <p>Somos uma plataforma de contratação de serviços. Conectamos Profissionais de todas as areas com pessoas que necessitam.</p>
+                <div id="fs">Serviços e atendimento com qualidade, facilidade e rapidez, para todos os tipos de necessiades.</div>
+            <section class="cadastro">             
+                <div id="CC">
+                    <h2>Cadastro cliente</h2>
+                    Faça seu cadastro de cliente
+                    <form method="get" action="cadastro.html">
+                        <button type="submit">cadastro</button>
+                    </form>
+                </div>
+                    
+                <div id="CP">
+                    <h3>Cadastro prestador</h3>
+                    Faça seu cadastro de prestador
+                    <form method="get" action="cadastroP.html">
+                        <button type="submit">cadastro</button>
+                    </form>
+                </div>
+            </section>
         </body>
+
 
     </html>
