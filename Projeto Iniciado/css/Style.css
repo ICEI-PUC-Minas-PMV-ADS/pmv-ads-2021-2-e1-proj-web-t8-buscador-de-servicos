@@ -22,13 +22,6 @@ header
     border: black;
     border-style: solid;
 }
-#login
-{
-    size: 5cm;
-    background-color: gray;
-    font-size: 16px;
-    float: right;
-}
 input
 {
     width: 10cm;
@@ -38,4 +31,17 @@ input
 [list]
 {
     font-style: italic;
+}
+#login
+{
+    size: 5cm;
+    background-color: gray;
+    font-size: 16px;
+    float: right;
+}
+#CF
+{
+    font-size: 16px;
+    color: black;
+    float: left;
 }
