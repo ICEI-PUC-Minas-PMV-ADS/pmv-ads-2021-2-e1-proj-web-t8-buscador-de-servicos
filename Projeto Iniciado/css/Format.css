@@ -9,29 +9,21 @@ header
 {
     background-color: #303030;
 }
-
 #Login
 {
    float: right;
    margin-top: -15.5pc;
-   margin-right: 0.3pc;
+   margin-right: 0pc;
 }
 #Busca
 {
-    margin-top: 1pc;
-    margin-inline: 34pc; 
+    width: 95%;
+    margin-top: 4px;
+    padding: 10px;    
+
+    
 }
 h1
 {
-    margin-top: 10Pc;
     font-size: 40px;
-    margin-inline-start: 19.5pc;
-}
-#QS
-{
-    margin-inline-start: 14pc;
-}
-#fs
-{
-    margin-inline-start: 7pc;
 }

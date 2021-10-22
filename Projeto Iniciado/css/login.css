@@ -7,8 +7,8 @@ body
 }
 .LC
 {
-    
-margin-left: 535px; 
+  margin: 0px auto;
+  position: relative
 }
 .content{
     width: 500px;
