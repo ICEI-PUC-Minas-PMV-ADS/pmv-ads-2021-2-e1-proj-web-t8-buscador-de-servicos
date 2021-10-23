@@ -4,6 +4,11 @@
     margin: 40px;
     padding: 15px;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
 }
 
 .buttonCC
