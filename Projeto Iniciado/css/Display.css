@@ -1,12 +1,44 @@
 .cadastro
 {
-    font-size: 20px;
-    margin-top: 60px;
-    margin: 30px;
+    font-size: 12px;
+    margin-top: 80px;
+    margin: 40px;
+    text-align: center;
 }
+
 .CC
 {
-    background-color: #07a5c3;
-    opacity: 50%;
-    color: #1c191a;
+    background-color: #f4b324;
+    color: #303030;
+    border-radius: 15px;
+    width: 330px;
+    margin: auto;
+    box-shadow: 3px 3px 3px #303030;
+
 }
+
+.CP
+{
+    background-color: #f4b324;
+    color: #303030;
+    border-radius: 15px;
+    width: 330px;
+
+}
+
+
+.button
+{  
+    background-color: #f4b324;
+    color: #303030;
+    border-radius: 15px;
+    width: 330px;
+    margin: auto;
+    box-shadow: 3px 3px 3px #303030;
+    padding: 30px;
+
+
+}
+
+
+<!--box-shadow: 1px 1px 5px; (sombreado)-->
