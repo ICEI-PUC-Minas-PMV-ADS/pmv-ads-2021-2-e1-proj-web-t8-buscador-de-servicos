@@ -4,44 +4,51 @@
   <title>BSG - Login</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="stylesheet" type="text/css" href="/Projeto Iniciado/css/login.css" />
-  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--link para olho da senha-->
 </head>
 <body>
     <div class="LC">
-       <center> <img src="/Projeto Iniciado/img/Logo L branca.png" width="250" height="250"> </center>
+       <center> <img src="/Projeto Iniciado/img/Logo L branca p.png" > </center>
     </div>
     <div class="container" >
     <a class="links" id="paracadastro"></a>
     <a class="links" id="paralogin"></a>
      
-    <div class="content">      
-      <!--FORMULÁRIO DE LOGIN-->
+    <div class="content">  <!--FORMULÁRIO DE LOGIN-->    
+      
       <div id="login">
         <form method="post" action=""> 
           <h1>Login</h1> 
-          <p> 
+          
+          <div> <!--email-->
             <label for="nome_login">Usuario</label>
             <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. contato@bsg.com"/>
-          </p>
+          </div>
            
-          <p> 
+          <div> <!--senha-->
             <label for="email_login">Senha</label>
             <input id="email_login" name="email_login" required="required" type="password" placeholder="* * * * *" /> 
-          </p>
-           
-          <p> 
+            <i class="fa fa-eye" aria-hidden="true"></i><!--olho da senha-->
+          </div>
+
+          <div> <!--manter logado-->
             <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
             <label for="manterlogado">Manter-me logado</label>
-          </p>
+          </div>
            
-          <p> 
+          <div> <!--button logar-->
             <input type="submit" value="Logar" /> 
-          </p>
+          </div>
            
-          <p class="link">
+          <div class="MS"><!--esqueci minha senha-->
+            <a href="">Esqueci minha senha</a>
+          </div>
+
+          <div class="link"><!--ainda nao tem conta-->
             Ainda não tem conta?
             <a href="cadastro.html">Cadastre-se</a>
-          </p>
+          </div>
+
         </form>
     </div>
     </div>

@@ -1,21 +1,21 @@
-body
-{
+body{
     background-color:#1c191a;
     color:#f6e7d8;
     font-family: Helvetica;
     font-size: 16px;
 }
 
-header
-{
+header{
     background-color: #303030;
+    padding: 50px;
 }
 
-#Login
-{
+.Login{
    float: right;
-   margin-top: -15.5pc;
-   margin-right: 0pc;
+    margin-top: -145px;
+   margin-right: -40px;
+   background-color: #303030;
+
 }
 
 .Busca{
@@ -50,4 +50,8 @@ header
 h1
 {
     font-size: 40px;
+}
+
+.ajuda{
+    font-size: 15px;
 }

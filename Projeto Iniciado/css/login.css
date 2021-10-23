@@ -7,7 +7,7 @@ body
 }
 .LC
 {
-  margin: 0px auto;
+  margin: 80px auto;
   position: relative
 }
 .content{
@@ -34,7 +34,7 @@ h1{
     background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
     background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
   }
-  p{
+  div{
     margin-bottom:15px;
   }
    
@@ -43,7 +43,7 @@ h1{
   }
    
   label{
-    color: #405c60;
+    color: #07a5c3;
     position: relative;
   }
   /* placeholder */
@@ -211,3 +211,17 @@ h1{
       transform: translateX(-20px);
     }
   }
+
+.fa-eye{
+  position: absolute;
+  top: 287px;
+  right: 40px;
+  cursor: pointer;
+  color: #303030;
+
+}
+
+.MS{
+  color: #303030;
+  font-size: 10px;
+}
