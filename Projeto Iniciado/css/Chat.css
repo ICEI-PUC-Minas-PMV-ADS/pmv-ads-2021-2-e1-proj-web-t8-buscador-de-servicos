@@ -1,0 +1,38 @@
+header{
+    background-color: #1c191a;
+    padding: 50px;
+}
+body{
+    background-color:#303030;
+}
+div>h1{
+    color: #f6e7d8;
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+    font-style: helvetica;
+}
+textarea{
+    display: block;
+    margin: 50px auto 15px;
+    padding: 20px;
+    border-radius: 10;
+    background-color:#f6e7d8;
+    overflow-y: scroll;
+    font-weight: bold;
+    
+}
+div>input{
+    display: block;
+    margin: auto;
+}
+div>button{
+    display: block;
+    margin: auto;
+    font-size: large;
+    font-weight: bold;
+    background-color: #f6e7d8;
+    border-radius: 10;
+
+}
