@@ -8,15 +8,15 @@ body{
 div>h1{
     color: #f6e7d8;
     display: block;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
     font-style: helvetica;
 }
 textarea{
     display: block;
-    margin: 50px auto 15px;
-    padding: 20px;
+    margin: 20px auto 15px;
+    padding: 15px;
     border-radius: 10;
     background-color:#f6e7d8;
     overflow-y: scroll;
