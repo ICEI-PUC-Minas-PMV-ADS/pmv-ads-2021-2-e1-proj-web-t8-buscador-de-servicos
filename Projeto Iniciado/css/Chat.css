@@ -1,9 +1,17 @@
 header{
     background-color: #303030;
     padding: 50px;
+    flex-direction: column;
+    align-items: stretch;
+
+
 }
 body{
     background-color:#1c191a;
+
+    
+
+
 }
 div>h1{
     color: #f6e7d8;
@@ -12,20 +20,32 @@ div>h1{
     text-align: center;
     font-size: x-large;
     font-style: helvetica;
+    
+    
+    
 }
 textarea{
     display: block;
-    margin: 20px auto 15px;
+    margin: 20px auto;
     padding: 15px;
     border-radius: 10;
     background-color:#f6e7d8;
     overflow-y: scroll;
     font-weight: bold;
+    flex-direction: column;
+    
+
+    
+    
     
 }
 div>input{
     display: block;
     margin: auto;
+    
+
+    
+    
 }
 div>button{
     display: block;
@@ -34,5 +54,6 @@ div>button{
     font-weight: bold;
     background-color: #f6e7d8;
     border-radius: 10;
-
+    
+    
 }
