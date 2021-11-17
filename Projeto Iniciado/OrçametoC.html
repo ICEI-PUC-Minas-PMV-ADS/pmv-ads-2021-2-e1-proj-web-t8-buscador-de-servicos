@@ -12,34 +12,56 @@
 
         <body>
             <header>
+            
                 <div class="logo"><!--logo(volta para home)-->
+            
                     <form method="get" action="Index.html">
+            
                         <input type="image" src="/projeto iniciado/img/Logo L branca p.png"></input>
+            
                     </form>
+            
                 </div>
+            
             </header>
+            
             <form>
-                <fieldset><!--Solicitação do Orçamento-->
-                    <label>Tipo do serviço:<!--Seletor de serviço para ser direcionado aos prestadores.-->
-                        <select name="Serviço" required>
-                            <option value="Serviço">Selecione o serviço</option>
-                            <option value="Pintor">Pintor</option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                        </select>
-                    </label>
-                    <label>
-                        <input type="text" name="Descrição" id="Descrição" placeholder="Descreva aqui o serviço" required>
-                    </label>
-                    <input type="button" name="Adicionar Serviços" value="Adicionar serviço">
-                    <input type="submit" value="Enviar">
+                <script src="/Projeto Iniciado/JavaScript/O.js"></script>
+                <div id="origem"><!--div para dulpicação no JS-->
+                
+                    <fieldset><!--Solicitação do Orçamento-->
+                    
+                        <label>Tipo do serviço:<!--Seletor de serviço para ser direcionado aos prestadores.-->
+                        
+                            <select name="Serviço" required>
+                                
+                                <option value="Serviço">Selecione o serviço</option>
+                                <option value="Pintura">Pintura</option>
+                                <option value="Eletrica">Eletrica</option>
+                                <option value="Marcenaria">Marcenaria</option>
+                                <option value="limpeza">limpeza</option>
+                                <option value="Piscina">Piscina</option>
+                                <option value="Pets">Pets</option>
+                                <option value="Alvenaria">Alvenaria</option>
+                            
+                            </select>
+                        
+                        </label>
+                        
+                        <label>
+                            
+                            <input type="text" name="Descrição" id="Descrição" placeholder="Descreva aqui o serviço" required>
+                        
+                        </label>
+                        <input type="button" name="Add[]" value="Adicionar serviço">
+                        <input type="submit" value="Enviar">
+                    </fieldset>
+                </div>
+                
+                <div id="destino"></div>
 
-                </fieldset>
             </form>
+        
         </body>
 
     </html>
