@@ -5,11 +5,23 @@ body
     font-family: Helvetica;
     font-size: 16px;
 }
-.LC
-{
-  margin: 80px auto;
-  position: relative
+.header{
+  position: relative;
+  margin: auto;
+
+    background-color: #303030;
+
 }
+
+.header .LC input[type="image"]{
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  border: none;
+  padding: 80px;
+
+}
+
 .content{
     width: 500px;
     min-height: 560px;    
@@ -77,6 +89,7 @@ h1{
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
   }
+  
    
   /*estilo do botão submit */
   input[type="submit"]{
@@ -95,13 +108,17 @@ h1{
    
     transition: all 0.2s linear;
   }
-   
-  /*estilo do botão submit no hover */
+
+
+  /*estilo do botão submit no hover(quando coloca o ponteiro do mouse em cima) */
   input[type="submit"]:hover
   {
-    background: #07a5c3;
+    background-image: linear-gradient(to right, #07a5c3, #78b5c2 );
   }
-  .link{
+
+
+  .link
+  {
     position: absolute;
     background: #ffffff;
     color: #303030;
@@ -133,12 +150,15 @@ h1{
     transition: all 0.4s  linear;
   }
    
-  .link a:hover {
+  .link a:hover 
+  {
     color: #07a5c3;
     background: #ffffff;
     border: 1px solid #07a5c3;
   }
-  #login{
+
+  #login
+  {
     position: absolute;
     top: 0px;
     width: 88%;   
@@ -158,7 +178,9 @@ h1{
     animation-timing-function: ease;
     animation-fill-mode: both;
   }
-  #paralogin:target ~ .content #login{
+
+  #paralogin:target ~ .content #login
+  {
     z-index: 2;
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
@@ -166,6 +188,7 @@ h1{
     -webkit-animation-delay: .1s;
     animation-delay: .1s;
   }
+
   /*fadeInLeft*/
 @-webkit-keyframes fadeInLeft {
     0% {
@@ -212,7 +235,8 @@ h1{
     }
   }
 
-.fa-eye{
+.fa-eye
+{
   position: absolute;
   top: 287px;
   right: 40px;
@@ -221,7 +245,9 @@ h1{
 
 }
 
-.MS{
+.MS
+{
   color: #303030;
   font-size: 10px;
 }
+
