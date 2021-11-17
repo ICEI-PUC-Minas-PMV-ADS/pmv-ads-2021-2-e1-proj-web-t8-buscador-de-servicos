@@ -1,0 +1,258 @@
+@media (min-width: 600px){
+body
+{
+    background-color:#1c191a;
+    color:#f6e7d8;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+header
+{
+    
+}
+
+.menu
+{
+    background-color: #303030;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas: "cabecalho cabecalho";
+    
+}
+
+.Logo
+{
+    padding: 50px;
+    float: left;
+}
+
+.Login
+{
+   float: right;
+   background-color: #303030;
+
+}
+
+.Busca
+{
+    width: 100%;
+    margin-top: 15px;   
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+         
+}
+
+.input
+{
+    background-color: #30303050;
+    outline: 0px;
+    padding: 3px;
+    width: 60%;
+    color: #f6e7d8;
+    
+}
+
+.Bbusca
+{
+    width: 10%;
+    background-color: #303030;
+    border-radius: 5px;
+    margin-left: 3px;
+    color: #f6e7d8;
+}
+
+h1
+{
+    font-size: 40px;
+}
+
+.ajuda
+{
+    font-size: 15px;
+}
+
+.cadastro
+{
+    font-size: 12px;
+    margin: 40px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.buttonCC
+{
+    background-color: #f4b324;
+    color: #303030;
+    border-radius: 20px;
+    width: 330px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px #303030;
+    padding: 20px;
+    border: 0px;
+    
+}
+
+.buttonCP
+{
+    background-color: #f4b324;
+    color: #303030;
+    border-radius: 20px;
+    width: 330px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px #303030;
+    padding: 20px;
+    border: 0px;
+}
+
+.btn button:hover
+{
+    background-image: linear-gradient(to right, #f4b324, #f14902);
+}
+
+h2
+{
+    margin-top: 0px;
+}
+}
+
+
+@media (max-width: 600px){
+    
+body
+{
+    background-color:#1c191a;
+    color:#f6e7d8;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+header
+{
+    
+}
+
+.menu
+{
+    background-color: #303030;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas: "cabecalho cabecalho";
+    
+}
+
+.Logo
+{
+    padding: 30px;
+    margin: auto;
+    
+}
+
+.Login
+{
+   float: right;
+   background-color: #303030;
+
+}
+
+.Busca
+{
+    width: 100%;
+    margin-top: 15px;   
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+         
+}
+
+.input
+{
+    background-color: #30303050;
+    outline: 0px;
+    padding: 3px;
+    width: 60%;
+    color: #f6e7d8;
+    
+}
+
+.Bbusca
+{
+    width: 10%;
+    background-color: #303030;
+    border-radius: 5px;
+    margin-left: 3px;
+    color: #f6e7d8;
+}
+
+h1
+{
+    font-size: 40px;
+}
+
+.ajuda
+{
+    font-size: 15px;
+}
+
+.cadastro
+{
+    font-size: 12px;
+    margin: 40px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.buttonCC
+{
+    background-color: #f4b324;
+    color: #303030;
+    border-radius: 20px;
+    width: 330px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px #303030;
+    padding: 20px;
+    border: 0px;
+    
+}
+
+.buttonCP
+{
+    background-color: #f4b324;
+    color: #303030;
+    border-radius: 20px;
+    width: 330px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px #303030;
+    padding: 20px;
+    border: 0px;
+}
+
+.btn button:hover
+{
+    background-image: linear-gradient(to right, #f4b324, #f14902);
+}
+
+h2
+{
+    margin-top: 0px;
+}
+}
