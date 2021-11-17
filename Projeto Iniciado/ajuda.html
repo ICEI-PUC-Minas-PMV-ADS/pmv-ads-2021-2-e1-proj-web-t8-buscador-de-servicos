@@ -1,14 +1,56 @@
-</html>
+<!DOCTYPE html>
+<html lang="en">
 
-<!DOCTYPE html>>
-    <head>
-        <title>
-            BSG - Ajuda
-        </title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="/Projeto Iniciado/css/ajuda.css">
+    <!--<script src="popupAjuda.js"></script>-->
+</head>
+<header>
+    <div class="Logo">
+        <!--logo-->
+        <form method="get" action="Index.html">
+            <input type="image" src="/projeto iniciado/img/Logo L branca p.png"></input>
+        </form>
+    </div>
+</header>
 
-    <body>
-        Ajuda
-    </body>
+<body>
+    <div id="formAjuda" class="formAjuda">`
+        <form action="">
+            <fieldset class="faleconosco">
+                <Legend>Envie sua mensagem e responderemos assim que possível</Legend>
+                <label class="campos" for="Assunto">Selecione o assunto:</label><br>
+                <select name="assunto" id="assunto" required>
+                    <option value="Selecione">Selecione um assunto</option>
+                    <option value="Cadastro">Cadastro</option>
+                    <option value="Senha">Senha</option>
+                    <option value="Reclamacao">Reclamação</option>
+                    <option value="Garantia">Garantia</option>
+                    <option value="Avaliação">Avaliação Prestador</option>
+                    <option value="outros">Outros</option>
+                </select><br>
+                <label class="campos" for="Nome">Nome:</label><br>
+                <input type="text" id="nome"><br>
+                <label class="campos" for="Email">E-mail:</label><br>
+                <input type="email" id="email"><br>
+                <label class="campos" for="Mensagem">Escreva sua mensagem:</label><br>
+                <textarea name="Mensagem" id="Mensagem" cols="70" rows="5"></textarea><br>
+                <input type="submit" id="enviar" value="Enviar"><br>
+            </fieldset>
+        </form>
+    </div>
+   <!-- <div>
+        <a href="javascript:abrir()"> Fale Conosco</a>
+    </div>-->
+
+
+</body>
+<footer>
+    <a  id="voltar" href="Index.html">Voltar</a>
+</footer>
 
 </html>
