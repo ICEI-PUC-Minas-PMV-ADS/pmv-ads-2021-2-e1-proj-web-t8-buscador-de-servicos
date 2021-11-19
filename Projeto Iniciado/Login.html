@@ -1,68 +1,90 @@
 <!DOCTYPE html>
+
 <head>
-  <title>BSG - Login</title>
-  <meta charset="UTF-8" />
-  <meta http-equiv="refresh" content="30"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet" type="text/css" href="/Projeto Iniciado/css/login.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--link para olho da senha-->
+    
+    <title> BSG - LOGIN </title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta charset="UFT-8"/>
+    <meta http-equiv="refresh" content="60" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Projeto Iniciado/css/Login.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--link para olho da senha-->
 
 </head>
+
 <body>
-  <header>
-    <div class="LC">
-       <!--<center> <img src="/Projeto Iniciado/img/Logo L branca p.png" ></center> -->
-      <form method="get" action="Index.html">
-        <input type="image" src="/projeto iniciado/img/Logo L branca.png" width="200px"></input>
-      </form>
-    </div>
-  </header>
 
-    <div class="container" >
-    <a class="links" id="paracadastro"></a>
-    <a class="links" id="paralogin"></a>
-     
-    <div class="content">  <!--FORMULÁRIO DE LOGIN-->    
-      
-      <div id="login">
-        <form method="post" action=""> 
-          <h1>Login</h1> 
+    <header> <!--topo do site com logo-->
+
+        <div class="LC"> <!--Imagem da logo-->
+            
+            <form method="get" action="Index.html">
+
+                <input type="image" src="/Projeto Iniciado/img/Logo L branca p.png"></input>
+
+            </form>   
+        
+        </div>
+
+    </header>
+
+    <div class="container">
+        
+        <div class="content"> <!--Formulario de login-->
+
+            <div id="login">
+
+                <form method="post" action="">
+                  
+                    <h1>Login</h1>
+
+                    <div class="login"> <!--email-->
+                        
+                        <label for="nome_login">Usuario</label>
+                        <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex: contato@bsg.com"/>
+                    
+                    </div>
+
+                    <div class="senha"> <!--senha-->
+            
+                        <label for="email_login">Senha</label>
+                        <input id="email_login" name="email_login" required="required" type="password" placeholder="* * * * *" /> 
+                    
+                    </div>    
+
+                    <div class="ML"> <!--manter logado-->
+            
+                        <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+                        <label for="manterlogado">Manter-me logado</label>
           
-          <div> <!--email-->
-            <label for="nome_login">Usuario</label>
-            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. contato@bsg.com"/>
-          </div>
-           
-          <div> <!--senha-->
-            <label for="email_login">Senha</label>
-            <input id="email_login" name="email_login" required="required" type="password" placeholder="* * * * *" /> 
-            <i class="fa fa-eye" aria-hidden="true"></i><!--olho da senha-->
-          </div>
+                    </div>
+                    
+                    <div class="logar"> <!--button logar-->
+                    
+                        <button type="submit" onclick="acesso()">LOGAR</button> 
+                    
+                    </div>
 
-          <div> <!--manter logado-->
-            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
-            <label for="manterlogado">Manter-me logado</label>
-          </div>
-           
-          <div> <!--button logar-->
-            <input type="submit" value="Logar" onclick="acesso(this.form)"/> 
-          </div>
-           
-          <div class="MS"><!--esqueci minha senha-->
-            <a href="">Esqueci minha senha</a>
-          </div>
+                    <div class="MS"><!--esqueci minha senha-->
+                    
+                        <a href="/Projeto Iniciado/Chat.html">Esqueci minha senha</a>
+                    
+                    </div>
 
-          <div class="link"><!--ainda nao tem conta-->
-            Ainda não tem conta?
-            <a href="cadastroP.html">Cadastre-se</a>
-          </div>
+                    <div class="link"><!--ainda nao tem conta-->
+                        
+                        Ainda não tem conta?
+                        <a href="/Projeto Iniciado/Index.html">Cadastre-se</a>
+                    
+                    </div>
 
-        </form>
+                </form>
+                
+
+            </div>
+            
+        </div>
+
     </div>
-    </div>
-  </div>  
-
-  <script src="login.js"></script>
 
 </body>
-</html>
