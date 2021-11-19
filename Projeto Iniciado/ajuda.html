@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale Conosco</title>
     <link rel="stylesheet" href="/Projeto Iniciado/css/ajuda.css">
-    <!--<script src="popupAjuda.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="/Projeto Iniciado/JavaScript/ajuda.js"></script>
+    
 </head>
 <header>
     <div class="Logo">
@@ -19,12 +21,12 @@
 </header>
 
 <body>
-    <div id="formAjuda" class="formAjuda">`
+    <div>`
         <form action="">
-            <fieldset class="faleconosco">
+            <fieldset class="camposForm">
                 <Legend>Envie sua mensagem e responderemos assim que possível</Legend>
                 <label class="campos" for="Assunto">Selecione o assunto:</label><br>
-                <select name="assunto" id="assunto" required>
+                <select name="assunto" id="assunto">
                     <option value="Selecione">Selecione um assunto</option>
                     <option value="Cadastro">Cadastro</option>
                     <option value="Senha">Senha</option>
@@ -34,19 +36,16 @@
                     <option value="outros">Outros</option>
                 </select><br>
                 <label class="campos" for="Nome">Nome:</label><br>
-                <input type="text" id="nome"><br>
+                <input type="text" name="nome" id="nome"><br>
                 <label class="campos" for="Email">E-mail:</label><br>
-                <input type="email" id="email"><br>
+                <input type="email" name="email" id="email"><br>
                 <label class="campos" for="Mensagem">Escreva sua mensagem:</label><br>
-                <textarea name="Mensagem" id="Mensagem" cols="70" rows="5"></textarea><br>
-                <input type="submit" id="enviar" value="Enviar"><br>
+                <textarea name="mensagem" id="mensagem"></textarea><br>
+                <input type="submit" id="enviaForm" value="Enviar" onclick="alerta()"><br>
             </fieldset>
-        </form>
+        </form>       
     </div>
-   <!-- <div>
-        <a href="javascript:abrir()"> Fale Conosco</a>
-    </div>-->
-
+    
 
 </body>
 <footer>
