@@ -4,8 +4,7 @@ function alerta(){
     var formEmail = $('#email').val();
     var formMsg = $('#mensagem').val();
     var formId = 0;
-    var formCompleto = {
-        "armazena":[
+    var formCompleto = [
             {
                 'id': formId,
                 'Assunto': formAssunto,
@@ -13,56 +12,25 @@ function alerta(){
                 'Email': formEmail,
                 'Mensagem': formMsg
             }
-            
         ] 
-    }
-    
-        
 
-    /*var formCompleto = JSON.parse(formCompleto);
-    if (formCompleto.armazena==null)
-        armazena= [];
-    
-    return Adicionar();
-}
+     /*  for (x=0; formCompleto[x] < 100; x++);
+        let novoContato = {
+            'id': x,
+            'Assunto': $('#assunto').val(),
+            'Nome': $('#nome').val() ,
+            'Email': $('#email').val(),
+            'Mensagem': $('#mensagem').val() 
+        };
 
-    function Adicionar(){/*{
-    var formCompleto = JSON.stringify({
-        Assunto : $('#assunto').val(),
-        Nome: $('#nome').val(),
-        Email : $('#email').val,
-        Mensagem : $('#mensagem').val()
-    var formCompleto = {
-        Assunto: setAssunto,
-        Nome: setNome,
-        Email: setEmail,
-        Mensagem: setMensagem
-    });*/
+        formCompleto.push(novoContato);*/
     
     localStorage.setItem("formCompleto", JSON.stringify(formCompleto));
 
     alert ('Mensagem enviada!');
+
+    
+
+
     
 }
-/*
-    vnomar banco = JSON.parse(localStorage.getItem ('novoBanco'))
-        for (var id=0; id<formCompleto.lenght; id++);
-        novoForm = {
-            'ID': id,
-            'Assunto': formCompleto.setAssunto,
-            'Nome': formCompleto.setNome,
-            'Email': formCompleto.setEmail,
-            'Mensagem': formCompleto.setMensagem
-
-        };
-        banco.push(novoForm);
-        displayMessage ('Mensagem enviada com sucesso!');
-
-        localStorage.setItem ('novoBanco',JSON.stringify(banco));
-
-    
-
-    //localStorage.setItem("formCompleto", formCompleto);
-
-
-*/

@@ -60,12 +60,13 @@ fieldset>input{
     
 }
 
-#fechar{
-    padding: 15px;
+#voltar{
+    padding: 5px;
     color: blanchedalmond;
     font-size: medium;
     font-weight: normal;
-    
+    border-style: double;
+    margin: 10px;
 }
 
     

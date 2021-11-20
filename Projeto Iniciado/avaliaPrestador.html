@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de avaliação do prestador</title>
+    <link rel="stylesheet" href="/Projeto Iniciado/css/avaliaPrestador.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="/Projeto Iniciado/JavaScript/avaliaPrestador.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="Logo">
+            <!--logo-->
+            <form method="get" action="Index.html">
+                <input type="image" src="/projeto iniciado/img/Logo L branca p.png"></input>
+            </form>
+        </div>
+    </header>
+    <body>
+        <div>
+            <form action="">
+                <fieldset class="avaliaP">
+                    <legend class="tituloAvalia">Avalie o serviço realizado</legend><br>
+                    <label for="nomeP">Nome do Prestador:</label><br>
+                    <input type="text" name="nomeP" id="nomeP" placeholder="Nome Prestador" disabled><br><br>
+                    <label for="dataS">Data do Serviço:</label><br>
+                    <input type="date" name="dataS" id="dataS"><br><br>
+                    <label for="satisfacaoP">Qual o seu nível de satisfação com o serviço realizado?</label><br>
+                    <input type="radio" name="satisfação" value="insatisf">Insatisfeito
+                    <input type="radio" name="satisfação" value="poucosatisf">Pouco satisfeito
+                    <input type="radio" name="satisfação" value="satisf">Satisfeito
+                    <input type="radio" name="satisfação" value="muitosatisf">Muito satisfeito <br><br>
+                    <label for="satisfacaoSite">Qual o seu nível de satisfação com o site BSG?</label><br>
+                    <input type="radio" name="satisfaçãoSite" id="insatisfS">Insatisfeito
+                    <input type="radio" name="satisfacaoSite" id="poucosatisfS">Pouco satisfeito
+                    <input type="radio" name="satisfacaoSite" id="satisfS">Satisfeito
+                    <input type="radio" name="satisfacaoSite" id="muitosatisfS">Muito satisfeito <br><br>
+                    <label for="relato">Deixe seu relato:</label><br>
+                    <textarea name="relato" id="relato" maxlength="2000"></textarea><br>
+                    <input type="submit" value="ENVIAR" id="enviaAval">            
+                </fieldset>
+            </form>
+        </div>
+        <footer>
+            <a href="areadocliente.html" id="voltar">Voltar</a>
+        </footer>
+    </body>
+    
+</body>
+</html>
