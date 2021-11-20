@@ -1,0 +1,64 @@
+header{
+    padding: 20px;
+}
+
+body{
+        margin: auto;
+        padding: 20px;
+}
+
+th, td {
+    text-align: center;
+}
+h1{
+background-color: #f4b324;
+width: 100%;
+text-align: center;
+}
+
+h2{
+    background-color: #f4b324;
+        text-align: center;
+    }
+
+/*P na verdade seria os dados importados do cliente*/    
+p{
+    background-color: thistle;
+}
+
+.btn-novo{
+    background-color: #f4b324;
+    width: 100%;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #303030;
+    padding: 5px;
+    border: 0px;
+}
+
+.logo-chat{
+    width: 70%; height: 70%;
+}
+
+.logo{
+    width: auto;
+}
+
+.div-tabela, .div-dados{
+    display: inline-table;
+    width: 49%;
+}
+
+.div-dados{
+    margin: 10px 10px; 
+}
+
+/*distância texto e ícone*/
+.img-icone{
+    margin-left: 10px;
+}
+
+.div-tabela > h2{
+    border-radius: 20px;
+    }
