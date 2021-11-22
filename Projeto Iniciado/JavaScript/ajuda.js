@@ -1,36 +1,41 @@
-function alerta(){
+//Declara variáveis Array
+function alerta () {
     var formAssunto = $('#assunto').val();
     var formNome = $('#nome').val();
     var formEmail = $('#email').val();
     var formMsg = $('#mensagem').val();
-    var formId = 0;
     var formCompleto = [
             {
-                'id': formId,
                 'Assunto': formAssunto,
                 'Nome': formNome,
                 'Email': formEmail,
                 'Mensagem': formMsg
             }
-        ] 
+        ]
 
-     /*  for (x=0; formCompleto[x] < 100; x++);
-        let novoContato = {
-            'id': x,
+       
+//Adiciona novas informações na Array
+         
+        var adicionaForm = JSON.parse (localStorage.getItem ('formCompleto'));
+        let novoId = 1;
+        if (adicionaForm.length != 0)
+        novoId = adicionaForm[adicionaForm.length - 1].id + 1;
+        let novoForm = {
+            'id': novoId,
             'Assunto': $('#assunto').val(),
-            'Nome': $('#nome').val() ,
+            'Nome': $('#nome').val(),
             'Email': $('#email').val(),
-            'Mensagem': $('#mensagem').val() 
-        };
+            'Mensagem': $('#mensagem').val()
+        }
 
-        formCompleto.push(novoContato);*/
+        adicionaForm.push(novoForm);
     
-    localStorage.setItem("formCompleto", JSON.stringify(formCompleto));
+    localStorage.setItem("formCompleto", JSON.stringify(adicionaForm));
 
     alert ('Mensagem enviada!');
-
+    }
     
 
 
     
-}
+
