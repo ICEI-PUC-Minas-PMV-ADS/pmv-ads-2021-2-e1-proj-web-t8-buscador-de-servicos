@@ -29,10 +29,10 @@
                     <label for="dataS">Data do Serviço:</label><br>
                     <input type="date" name="dataS" id="dataS"><br><br>
                     <label for="satisfacaoP">Qual o seu nível de satisfação com o serviço realizado?</label><br>
-                    <input type="radio" name="satisfação" value="insatisf">Insatisfeito
-                    <input type="radio" name="satisfação" value="poucosatisf">Pouco satisfeito
-                    <input type="radio" name="satisfação" value="satisf">Satisfeito
-                    <input type="radio" name="satisfação" value="muitosatisf">Muito satisfeito <br><br>
+                    <input type="radio" name="satisfação" id="insatisf">Insatisfeito
+                    <input type="radio" name="satisfação" id="poucosatisf">Pouco satisfeito
+                    <input type="radio" name="satisfação" id="satisf">Satisfeito
+                    <input type="radio" name="satisfação" id="muitosatisf">Muito satisfeito <br><br>
                     <label for="satisfacaoSite">Qual o seu nível de satisfação com o site BSG?</label><br>
                     <input type="radio" name="satisfaçãoSite" id="insatisfS">Insatisfeito
                     <input type="radio" name="satisfacaoSite" id="poucosatisfS">Pouco satisfeito
@@ -40,10 +40,10 @@
                     <input type="radio" name="satisfacaoSite" id="muitosatisfS">Muito satisfeito <br><br>
                     <label for="relato">Deixe seu relato:</label><br>
                     <textarea name="relato" id="relato" maxlength="2000"></textarea><br>
-                    <input type="submit" value="ENVIAR" id="enviaAval">            
+                    <input type="submit" value="ENVIAR" id="enviaAval" onclick="alerta()">            
                 </fieldset>
             </form>
-        </div>
+        </div><br>
         <footer>
             <a href="areadocliente.html" id="voltar">Voltar</a>
         </footer>
