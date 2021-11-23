@@ -1,5 +1,6 @@
 //Declara variáveis Array
 function alerta () {
+    
     var nomeP = $('#nomeP').val();
     var dataS = $('#dataS').val();
     var insatisfP = $('#insatisf').is(':checked');
@@ -11,6 +12,24 @@ function alerta () {
     var satisfS = $('#satisfS').is(':checked');
     var muitosatisfS = $('#muitosatisfS').is(':checked');
     var relato = $('#relato').val();
+//Variável q adiciona os dados iniciais no LocalStorage
+    var avalInicial = [
+        {
+            'id': 1,
+            'Prestador': "Paulo",
+            'Data': "23/11/21",
+            'Insatisfeito': 'false',
+            'Pouco satisfaeito': 'false',
+            'Satisfeito': 'false',
+            'Muito satisfeito': 'true',
+            'Insatisfeito Site': 'false',
+            'Pouco satisfeito Site': 'false',
+            'Satisfeito Site': 'false',
+            'Muito satisfeito Site': 'true'
+        }
+    ]
+
+//Array
     var avalCompleto = [
             {
                 'Prestador': nomeP,
@@ -29,8 +48,11 @@ function alerta () {
 
        
 //Adiciona novas informações na Array
-         
         var adicionaAval = JSON.parse (localStorage.getItem ('avalCompleto'));
+        if (!adicionaAval){
+            adicionaAval = avalInicial //se array estiver vazia
+        }; 
+        
         let novoId = 1;
         if (adicionaAval.length != 0)
         novoId = adicionaAval[adicionaAval.length - 1].id + 1;
