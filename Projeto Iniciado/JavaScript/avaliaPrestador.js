@@ -2,21 +2,27 @@
 function alerta () {
     var nomeP = $('#nomeP').val();
     var dataS = $('#dataS').val();
-    //var formEmail = $('#email').val();
-    var insatisfP = $('#insatisf').val();
-    var poucosatisfP = $('#poucosatisf').val();
-    var satisfP = $('#satisf').val();
-    var muitosatisfP = $('#muitosatisf').val();
+    var insatisfP = $('#insatisf').is(':checked');
+    var poucosatisfP = $('#poucosatisf').is(':checked');
+    var satisfP = $('#satisf').is(':checked');
+    var muitosatisfP = $('#muitosatisf').is(':checked');
+    var insatisfS = $('#insatisfS').is(':checked');
+    var poucosatisfS = $('#poucosatisfS').is(':checked');
+    var satisfS = $('#satisfS').is(':checked');
+    var muitosatisfS = $('#muitosatisfS').is(':checked');
     var relato = $('#relato').val();
     var avalCompleto = [
             {
                 'Prestador': nomeP,
                 'Data': dataS,
-               // 'Email': formEmail,
                 'Insatisfeito': insatisfP,
                 'Pouco satisfeito': poucosatisfP,
                 'Satisfeito': satisfP,
                 'Muito satisfeito': muitosatisfP,
+                'Insatisfeito Site': insatisfS,
+                'Pouco satisfeito Site': poucosatisfS,
+                'Satisfeito Site': satisfS,
+                'Muito satisfeito Site': muitosatisfS,
                 'Relato': relato
             }
         ]
@@ -32,11 +38,14 @@ function alerta () {
             'id': novoId,
             'Prestador': $('#nomeP').val(),
             'Data': $('#dataS').val(),
-           // 'Email': $('#email').val(),
-            'Insatisfeito':$('#insatisf').val() ,
-            'Pouco satisfeito': $('#poucosatisf').val(),
-            'Satisfeito': $('#satisf').val() ,
-            'Muito satisfeito': $('#muitosatisf').val() ,
+            'Insatisfeito':$('#insatisf').is(':checked'),
+            'Pouco satisfeito': $('#poucosatisf').is(':checked'),
+            'Satisfeito': $('#satisf').is(':checked') ,
+            'Muito satisfeito': $('#muitosatisf').is(':checked'),
+            'Insatisfeito Site': $('#insatisfS').is(':checked'),
+            'Pouco satisfeito Site' : $('#poucosatisfS').is(':checked'),
+            'Satisfeito Site': $('#satisfS').is(':checked'),
+            'Muito satisfeito Site': $('#muitosatisfS').is(':checked'),
             'Relato': $('#relato').val()
          }
 
