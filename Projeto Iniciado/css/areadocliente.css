@@ -1,12 +1,13 @@
 header{
     background-color: #303030;
-    padding: 20px;
+    padding: 65px;
+    margin-bottom: 15px;
 }
 
 body{
-    background-color: #1c191a;
-    margin: auto;
-    padding: 20px;
+    background-color: #1c191a !important;
+    margin: 8px !important;
+    font-family: Helvetica !important;
 }
 
 th, td {
@@ -16,16 +17,25 @@ h1{
     background-color: #f4b324;
     width: 100%;
     text-align: center;
+    font-weight: 600 !important;
+    padding: 10px;
 }
 
 h2{
     background-color: #f4b324;
     text-align: center;
+    font-weight: 500 !important;
+    padding: 5px;
     }
 
 /*P na verdade seria os dados importados do cliente*/    
 p{
     background-color: #f4b324;
+    width: 100%;
+    padding-left: 5px;
+    margin: 0px !important;
+    padding: 8px;
+    font-weight: 500;
 }
 
 .btn-novo{
@@ -33,10 +43,14 @@ p{
     width: 100%;
     font-size: x-large;
     text-align: center;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px #303030;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #303030;
     padding: 5px;
     border: 0px;
+}
+
+.btn-novo:hover{
+    background-image: linear-gradient(to right, #f4b324, #f14902);
 }
 
 .logo-chat{
@@ -54,6 +68,7 @@ p{
 
 .div-dados{
     margin: 10px 10px; 
+    border: none;
 }
 
 /*distância texto e ícone*/
@@ -68,4 +83,61 @@ p{
 /* palavra deveria ficar a direita, linha 86*/
 #Editar{
        text-align: right;
+}
+
+#tabelaHS{
+    color: #f4b324;
+    background-color: #303030;
+}
+
+#tabelaHS2{
+    color: #f6e7d8;
+}
+
+.table-danger{
+    color:#1c191a;
+} 
+
+.table-warning{
+    color: #1c191a;
+}
+
+.table-success{
+    color: #1c191a;
+}
+
+.card{
+    background-color: #303030 !important;
+    margin: 0px !important;
+    border: none !important;
+}
+
+label{
+    padding: 10px;
+    margin: 0px !important;
+    color: #f6e7d8;
+}
+
+#btne{
+    background-color: #1c191a;
+    border: none;
+    padding: 5px;
+    text-align: right;
+}
+
+#editar{
+    width: 20%;
+    font-size: 15px;
+    color: #1c191a;
+    background-color: #f4b324;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px #303030;
+    color: #303030;
+    font-weight: 600;
+    border: none;
+}
+
+#editar:hover{
+    background-image: linear-gradient(to right, #f4b324, #f14902);
 }
