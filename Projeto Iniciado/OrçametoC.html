@@ -27,7 +27,7 @@
             
             <form>
                 <script src="/Projeto Iniciado/JavaScript/O.js"></script>
-                <div id="origem"><!--div para dulpicação no JS-->
+                <div class="origem"><!--div para dulpicação no JS-->
                 
                     <fieldset><!--Solicitação do Orçamento-->
                     
@@ -53,7 +53,7 @@
                             <input type="text" name="Descrição" id="Descrição" placeholder="Descreva aqui o serviço" required>
                         
                         </label>
-                        <input type="button" name="Add[]" value="Adicionar serviço">
+                        <input id="Adicionar" type="button" value="Adicionar" onclick="duplicarCampos();" />
                         <input type="submit" value="Enviar">
                     </fieldset>
                 </div>
