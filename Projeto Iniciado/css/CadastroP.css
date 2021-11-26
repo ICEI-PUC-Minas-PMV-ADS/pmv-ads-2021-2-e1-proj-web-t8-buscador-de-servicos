@@ -33,8 +33,114 @@ h1{
 
 fieldset{
     color: #f6e7d8;
+    padding: 0px;
 }
 
 input{
     background-color: #303030;
+    color: #f6e7d8;
+}
+
+#date{
+    color: #f6e7d8;
+}
+
+.NS{
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+
+}
+
+.nome{
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+#nome{
+    width: 70%;
+}
+
+.Sobrenome{
+    white-space: nowrap;
+}
+
+#sobrenome{
+    width: 70%;
+}
+
+.ET{
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+
+}
+
+.email{
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+#email{
+    width: 70%;
+}
+
+.telefone{
+    white-space: nowrap;
+}
+
+#phone{
+    width: 70%;
+}
+
+@media (max-width:900px){
+    .NS{
+        white-space: normal;
+        display: inline;
+    }
+    .nome{
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .Sobrenome{
+        padding: 10px;
+    
+    }
+    #nome{
+        width: 70%;
+    }
+    #sobrenome{
+        width: 75%;
+    }
+}
+
+@media (max-width:600px){
+    .NS{
+        white-space: normal;
+        display: inline;
+    }
+    .nome{
+        padding: 5px;
+    }
+    .Sobrenome{
+        padding: 5px;
+    
+    }
+    #nome{
+        width: 50%;
+    }
+    #sobrenome{
+        width: 50%;
+    }
+
+    .ET{
+        white-space: normal;
+        display: inline;
+    }
+    .email{
+        padding: 5px;
+    }
+    .telefone{
+        padding: 5px;
+    }
 }
