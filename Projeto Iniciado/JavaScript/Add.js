@@ -1,6 +1,6 @@
 function()
 {
-    var operacao = "A"; //"A"=Adição; "E"=Edição
+    var operacao = "A"; //"A"=Adição; "E"=Edição teste
     var indice_selecionado = -1; //Índice do item selecionado na lista
     var tbClientes = localStorage.getItem("tbprest");// Recupera os dados armazenados
     tbClientes = JSON.parse(tbprest); // Converte string para objeto
@@ -57,3 +57,26 @@ function Excluir(){
     alert("Registro excluído.");
 }
 
+function login()
+{
+    tbprest[indice_selecionado] = JSON.stringify(
+        {
+            var  Nome        : $("#nome").val(),
+                 Sobrenome   : $("#sobrenome").val(),
+                 Telefone    : $("#phone").val(),
+                 Email       : $("#email").val(),
+                 cnpj        : $("#CPF").val(),
+                 senha       : $("#senha").val(),
+                 cep         : $("#CEP").val(),
+                 pais        : $("#pais").val(),
+                 Estado      : $("#estado").val(),
+                 Municipio   : $("#municipio").val(),
+                 endereço    : $("#endereco").val(),
+                 compl       : $("#complemento").val(),
+        }
+    )
+    if(email = $("#nome_login") senha = $("email_login"))
+    {
+        window.location.href = "http://127.0.0.1:5501/Projeto%20Iniciado/areadocliente.html"
+    }  
+}
