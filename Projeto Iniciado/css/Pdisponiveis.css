@@ -1,0 +1,92 @@
+header{
+    background-color: #303030;
+    padding: 40px;
+    margin-bottom: 15px;
+}
+body{
+    background-color: #1c191a !important;
+    margin: 8px !important;
+    font-family: Helvetica !important;
+}
+th, td {
+    text-align: center;
+}
+h1{
+    background-color: #f4b324;
+    width: 100%;
+    text-align: center;
+    font-weight: 600 !important;
+    padding: 10px;
+}
+h2{
+    background-color: #f4b324;
+    text-align: center;
+    font-weight: 500 !important;
+    padding: 15px;
+    }
+/*inputs de endereço dos clientes*/    
+p{
+    background-color: #f4b324;
+    width: 100%;
+    padding-left: 5px;
+    margin: 0px !important;
+    padding: 8px;
+    font-weight: 500;
+}
+.btn-novo{
+    background-color: #f4b324;
+    width: 100%;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #303030;
+    padding: 5px;
+    border: 0px;
+}
+.btn-novo:hover{
+	padding: 10px;
+    background-image: linear-gradient(to right, #f4b324, #f14902);
+}
+.logo{
+    width: auto;
+}
+.div-tabela, .div-dados{
+    display: inline-table;
+    width: 49%;
+}
+.div-dados{
+    margin: 10px 10px; 
+    border: none;
+	float:right;
+}
+.Image{
+	position: absolute;
+    left:60px;
+    top: 315px;
+}
+.card{
+    background-color: #303030 !important;
+    margin: 0px !important;
+    border: none !important;
+}
+label{
+    padding: 10px;
+    margin: 0px !important;
+    color: #f6e7d8;
+}
+
+#btne{
+    background-color: #1c191a;
+    border: none;
+    padding: 5px;
+    text-align: right;
+}
+.txt {
+    width: 48%;
+    font-size: x-small;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    left:05px;
+    top: 270px;
+}
