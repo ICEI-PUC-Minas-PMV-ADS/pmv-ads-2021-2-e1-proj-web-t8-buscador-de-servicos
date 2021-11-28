@@ -25,9 +25,11 @@ header{
 }
 
 h1{
+    background-color: #f4b324;
+    color: #1c191a;
     padding: 15px;
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 600;
     text-align: center;
 }
 
