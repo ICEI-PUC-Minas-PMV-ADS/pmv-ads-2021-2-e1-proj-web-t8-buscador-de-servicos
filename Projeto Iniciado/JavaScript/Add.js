@@ -88,7 +88,13 @@ function Cadastrar(){
         
             alert ('Cadastro realizado com sucesso!');
             
-        }           
+        }  
+        var contaP = JSON.parse (localStorage.getItem("cadCompleto"));
+
+    
+        document.getElementById("numP").innerHTML= ("Existem " + contaP.length + " profissionais na área desejada.");
+        
+        
             
     /*tbprest.push(cliente);
     localStorage.setItem("tbprest", JSON.stringify(tbprest));
