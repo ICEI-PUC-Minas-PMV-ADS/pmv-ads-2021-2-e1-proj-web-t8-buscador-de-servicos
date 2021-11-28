@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--link para olho da senha-->
     <link rel="stylesheet" type="text/css" href="/Projeto Iniciado/css/CadastroC.css" />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="/Projeto Iniciado/JavaScript/CC.js"></script>
 </head>
 
 <body>
@@ -22,7 +23,7 @@
         <fieldset><!--dados pessoais-->
             <div><!--nome-->
                 <label>Primeiro nome:<!--primeiro nome-->
-                    <input type="text" name="Primeiro nome" id="Primeiro nome" placeholder="Primeiro nome" required>
+                    <input type="text" name="Primeiro nome" id="nome" placeholder="Primeiro nome" required>
                 </label>
 
                 <label>Sobrenome:<!--sobrenome-->
@@ -359,7 +360,7 @@
         </div>
 
         <div class="" method="get" action="CadastroP2.html"> <!--button continuar-->
-        <button type="submit">
+            <button class="cadastrar" onclick="cadastrarP()" >Cadastrar</button>
             <h3>Continuar</h3>
         </button>
         </div>
