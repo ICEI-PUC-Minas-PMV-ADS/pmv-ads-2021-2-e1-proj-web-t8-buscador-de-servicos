@@ -1,4 +1,4 @@
-function Cadastrar(){
+function CadastrarP(){
 
     var  Nome        = $("#nome").val(),
          Sobrenome   = $("#sobrenome").val(),
