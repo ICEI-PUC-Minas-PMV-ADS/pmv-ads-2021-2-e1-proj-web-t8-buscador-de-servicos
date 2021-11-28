@@ -82,7 +82,13 @@ function CadastrarP(){
         
             alert ('Cadastro realizado com sucesso!');
             
-        }           
+        }  
+        var contaP = JSON.parse (localStorage.getItem("cadCompleto"));
+
+    
+        document.getElementById("numP").innerHTML= ("Existem " + contaP.length + " profissionais na área desejada.");
+        
+        
             
 
 function login()

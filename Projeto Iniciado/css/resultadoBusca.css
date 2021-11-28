@@ -1,0 +1,21 @@
+header{
+    background-color: #303030;
+    padding: 30px;
+
+    align-items: stretch;
+
+
+}
+body{
+    background-color:#1c191a;
+}
+
+.dados{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pergunta{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
