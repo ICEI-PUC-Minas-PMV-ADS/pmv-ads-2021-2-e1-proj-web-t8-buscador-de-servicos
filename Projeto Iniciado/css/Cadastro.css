@@ -1,0 +1,546 @@
+body{
+    background-color: #1c191a;
+    font-family: Helvetica;
+}
+
+
+header{
+    background-color: #303030;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas: "cabecalho cabecalho";
+    
+}
+
+.Logo{
+    padding: 50px;
+    float: left;
+}
+
+.A{
+    color: #f6e7d8;
+    position: relative;
+   
+}
+
+h1{
+    background-color: #f4b324;
+    color: #1c191a;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+fieldset{
+    color: #f6e7d8;
+    padding: 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input{
+    background-color: #303030;
+    color: #f6e7d8;
+}
+
+#date{
+    color: #f6e7d8;
+}
+
+.NS{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+
+}
+
+.nome{
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+#nome{
+    width: 70%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+
+.Sobrenome{
+    white-space: nowrap;
+}
+
+#sobrenome{
+    width: 70%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+
+.ET{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 10px;
+
+}
+
+.email{
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+#email{
+    width: 70%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+
+.telefone{
+    white-space: nowrap;
+}
+
+#phone{
+    width: 70%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+
+.NCPF{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+.nascimento{
+    white-space: nowrap;
+}
+#nascimento{
+    width: 60%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+
+.cpf{
+    white-space: nowrap;
+}
+
+#cpf{
+    width: 70%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+
+.SNH{
+    display: grid;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.senha > input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+.csenha > input{
+    margin-bottom: 5px;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+.feed{
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.CEP{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#CEP{
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+
+.PEM{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#pais{
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    background-color: #303030;
+    color: #f6e7d8;
+    padding: 3px;
+}
+#estado{
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    background-color: #303030;
+    color: #f6e7d8;
+    padding: 3px;
+}
+#municipio{
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+
+.EC{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#endereco{
+    width: 85%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+#complemento{
+    width: 80%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+
+.document{
+    padding: 10px;
+}
+.document > input{
+    background-color: #07a5c3;
+    color: #303030;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.cadastrar{
+    float: right;
+    background-color: #f4b324;
+    border: 0px;
+    color: #303030;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 5px 5px 10px #303030;
+    margin: 10px;
+    text-shadow: 1px 1px 5px #303030;
+}
+.cadastrar:hover{
+    background-image: linear-gradient(to right, #f4b324, #f14902);
+}
+
+.servicos{
+    padding: 10px;
+    text-align: center;
+    color: #f6e7d8;
+}
+#servicos{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+
+@media (max-width:600px){
+    .Logo{
+        text-align: center;
+    }
+    
+    fieldset{
+        color: #f6e7d8;
+        padding: 0px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    input{
+        background-color: #303030;
+        color: #f6e7d8;
+    }
+    
+    #date{
+        color: #f6e7d8;
+    }
+    
+    .NS{
+        white-space: normal;
+        display: inline;
+    }
+    
+    label .nome{
+        padding-top: 20px !important;
+        padding: 5px;
+        margin: 10px;
+    }
+    .nome{
+        white-space: pre-line;
+        padding-top: 10px;
+    }
+    .Sobrenome{
+        white-space: pre-line;
+        padding: 5px;
+        margin: 10px;
+    }
+    #nome{
+        padding: 5px;
+        width: 90%;
+        margin: 10px;
+    }
+    #sobrenome{
+        padding: 5px;
+        width: 90%;
+        margin: 10px;
+    }
+    
+    .ET{
+        white-space: normal;
+        display: inline;
+    }
+    .email{
+        white-space: pre-line;
+        padding: 5px;
+        margin: 10px;
+    }
+    .telefone{
+        white-space: pre-line;
+        padding: 5px;
+        margin: 10px;
+    }
+    #email{
+        width: 90%;
+        border-radius: 5px;
+        outline: 0px;
+        border-color: transparent;
+        padding: 5px;
+        margin: 10px;
+    }
+    #phone{
+        width: 90%;
+        border-radius: 5px;
+        outline: 0px;
+        border-color: transparent;
+        padding: 5px;
+        margin: 10px;
+    }
+    
+    .NCPF{
+        white-space: normal;
+        display: inline;
+    }
+    .nascimento{
+        white-space: pre-line;
+        padding: 5px;
+    }
+    .cpf{
+        white-space: pre-line;
+        padding: 5px;
+        margin: 10px;
+    }
+    #nascimento{
+        width: 90%;
+        border-radius: 5px;
+        outline: 0px;
+        border-color: transparent;
+        padding: 5px;
+        margin: 10px;
+    }
+    #cpf{
+        width: 90%;
+        border-radius: 5px;
+        outline: 0px;
+        border-color: transparent;
+        padding: 5px;
+        margin: 10px;
+    }
+    
+    .SNH{
+        white-space: normal;
+        display: inline;
+    }
+    .senha{
+        white-space: pre-line;
+        padding: 5px;
+    }
+    .csenha{
+        white-space: pre-line;
+        padding: 5px;
+        margin: 10px;
+    }
+    .senha > input{
+        width: 90%;
+        border-radius: 5px;
+        outline: 0px;
+        border-color: transparent;
+        padding: 5px;
+        margin: 10px;
+    }
+    .csenha > input{
+        width: 90%;
+        border-radius: 5px;
+        outline: 0px;
+        border-color: transparent;
+        padding: 5px;
+        margin: 10px;
+        margin-bottom: 3px;
+    }
+    .feed{
+        font-size: 10px;
+        font-weight: 100;
+        padding-left: 5px;
+        margin-left: 10px;
+    }
+    
+    .CEP{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .CEP > label{
+        padding-left: 5px;
+    }
+    #CEP{
+        width: 90%;
+        border-radius: 5px;
+        outline: 0px;
+        border-color: transparent;
+        padding: 5px;
+        margin: 10px 0px;
+    }
+    
+    .PEM{
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .pais{
+        white-space: pre-line;
+        padding: 5px;
+    }
+    .estado{
+        white-space: pre-line;
+        padding: 5px;
+    }
+    .municipio{
+        white-space: pre-line;
+        padding: 5px;
+    }
+    #pais{
+        width: 90%;
+        border-radius: 5px;
+        outline: 0px;
+        border-color: transparent;
+        padding: 5px;
+        margin: 10px 0px;
+    }
+    #estado{
+        width: 90%;
+        border-radius: 5px;
+        outline: 0px;
+        border-color: transparent;
+        padding: 5px;
+        margin: 10px 0px;
+    }
+    #municipio{
+        width: 90%;
+        border-radius: 5px;
+        outline: 0px;
+        border-color: transparent;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    
+    .EC{
+        white-space: normal;
+        display: inline;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .endereco{
+        white-space: pre-line;
+        padding-left: 5px;
+    }
+    .complemento{
+        white-space: pre-line;
+        padding-left: 5px;
+    }
+    #endereco{
+        width: 90%;
+        border-radius: 5px;
+        outline: 0px;
+        border-color: transparent;
+        padding: 5px;
+        margin: 10px 0px 10px 10px;
+    }
+    #complemento{
+        width: 90%;
+        border-radius: 5px;
+        outline: 0px;
+        border-color: transparent;
+        padding: 5px;
+        margin: 10px 0px 20px 10px;
+    }
+    
+    .document{
+        padding: 10px;
+    }
+    .document > input{
+        background-color: #07a5c3;
+        color: #303030;
+        border-radius: 5px;
+        border: 0px;
+    }
+    
+    .cadastrar{
+        float: right;
+        background-color: #f4b324;
+        border: 0px;
+        color: #303030;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 700;
+        box-shadow: 5px 5px 10px #303030;
+        margin: 10px;
+    
+    }
+    .cadastrar:hover{
+        background-image: linear-gradient(to right, #f4b324, #f14902);
+    }
+    
+    .servicos{
+        padding: 10px;
+        text-align: center;
+        color: #f6e7d8;
+    }
+    #servicos{
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }    
+}

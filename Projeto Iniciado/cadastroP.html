@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--link para olho da senha-->
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/Projeto Iniciado/css/CadastroP.css" />
+    <link rel="stylesheet" type="text/css" href="/Projeto Iniciado/css/Cadastro.css" />
     <script type="text/javascript" src="/Projeto Iniciado/JavaScript/Add.js"></script>
 </head>
 
@@ -45,38 +45,38 @@
                 </label>
             </div>
             
-            <div><!--nascimento-->
+            <div class="NCPF"><!--nascimento, cpf ou cnpj-->
                 <label class="nascimento">Data de nascimento:
-                    <input type="date" name="date" id="date" placeholder="dd/mm/aaaa">
+                    <input type="date" name="date" id="nascimento" placeholder="dd/mm/aaaa">
                 </label>
-            </div>
 
-            <div><!--cpf ou cnpj-->
                 <label class="cpf" >CPF ou CNPJ:
-                    <input type="text" name="cpf" \ pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" \ title="Digite um CPF no formato: xxx.xxx.xxx-xx" required id="CPF"> 
+                    <input id="cpf" type="text" name="cpf" \ pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" \ title="Digite um CPF no formato: xxx.xxx.xxx-xx" required> 
                 </label>
             </div>
 
-            <div><!--senha-->
+            <div class="SNH"><!--senha-->
                 <label class="senha" >Senha:
-                    <input onkeyup="verfypass()" type="password" name="senha" required placeholder="* * * * *" id="senha"/>
+                    <input id="senha" onkeyup="verfypass()" type="password" name="senha" required placeholder="* * * * *" />
                 </label>
+
                 <label class="csenha">Confirmar Senha:
-                    <input type="password" name="senha" required placeholder="* * * * *" />
+                    <input id="csenha" type="password" name="senha" required placeholder="* * * * *" />
                 </label>
+
                 <div class="feed">Número de caracteres: Mínimo 6</div>
                 <div class="feed">Mínimo de uma letra</div>
                 <div class="feed">Mínimo de um número</div>
             </div>
 
     
-            <div><!--CEP-->
-                <label class="CEP" for="CEP">CEP:
+            <div class="CEP"><!--CEP-->
+                <label  for="CEP">CEP:
                     <input name="CEP" id="CEP" pattern= "\d{5}-?\d{3}" placeholder="xxxxx-xxx" required/>
                 </label>
             </div>
 
-            <div><!--pais, estado e municipio-->
+            <div class="PEM"><!--pais, estado e municipio-->
                 <label class="pais">País:
                     <select name="pais" required id="pais">
                         <option value="AF">Afganistán</option>
@@ -354,7 +354,7 @@
                 </label>
             </div>
 
-            <div>
+            <div class="EC">
                 <label class="endereco">Endereço:
                     <input type="text" name="endereco" id="endereco" required>
                 </label>
@@ -365,7 +365,7 @@
 
         </fieldset>
 
-        <fieldset><!--documentos para anexar-->
+        <fieldset class="document"><!--documentos para anexar-->
             <label>Documentos:</label>
             <label>Foto para perfil</label>
             <input type="submit" value="anexar" required>
@@ -373,8 +373,26 @@
             <input type="submit" value="anexar" required>
         </fieldset>
 
-        <div class="" method="get" > <!--button continuar-->
-            <button onclick="Cadastrar()" >Cadastrar</button>
+        <fieldset class="servicos">
+            <div id="servicos">Selecione os serviços realizados:</div>
+            <input type="checkbox" name="" id="checkbox pintura" value="" /> 
+                <label for="">Pintura</label>
+            <input type="checkbox" name="" id="checkbox eletrica" value="" /> 
+                <label for="">Eletrica</label>
+            <input type="checkbox" name="" id="checkbox marcenaria" value="" /> 
+                <label for="">Marcenaria</label>
+            <input type="checkbox" name="" id="checkbox limpeza" value="" /> 
+                <label for="">limpeza</label>
+            <input type="checkbox" name="" id="checkbox piscina" value="" /> 
+                <label for="">Piscina</label>
+            <input type="checkbox" name="" id="checkbox pets" value="" /> 
+                <label for="">Pets</label>
+            <input type="checkbox" name="" id="checkbox alvenaria" value="" /> 
+                <label for="">Alvenaria</label>
+        </fieldset>
+
+        <div method="get" > <!--button continuar-->
+            <button class="cadastrar" onclick="CadastrarP()" >Cadastrar</button>
         </div>
 
     </form>

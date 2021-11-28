@@ -1,84 +1,92 @@
-@media (min-width: 600px){
-body
-{
+body{
     background-color:#1c191a;
     color:#f6e7d8;
     font-family: Helvetica;
     font-size: 16px;
 }
 
-header
-{
+header{
     
 }
 
-.menu
-{
+.menu{
     background-color: #303030;
     padding: 15px;
     display: grid;
     grid-template-columns: 2fr;
     grid-template-areas: "cabecalho cabecalho";
-    
 }
 
-.Logo
-{
+.Logo{
     padding: 50px;
     float: left;
 }
 
-.Login
-{
+.Login{
    float: right;
    background-color: #303030;
-
 }
 
-.Busca
-{
-    width: 100%;
+.Busca{
     margin-top: 15px;   
     text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: center;
-         
+           
 }
-
-.input
-{
-    background-color: #30303050;
-    outline: 0px;
-    padding: 3px;
-    width: 60%;
-    color: #f6e7d8;
-    
-}
-
-.Bbusca
-{
-    width: 10%;
+#Serv{
     background-color: #303030;
-    border-radius: 5px;
-    margin-left: 3px;
     color: #f6e7d8;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 5px;
 }
 
-h1
-{
+.pais{
+    margin: 0px;
+    padding: 5px;
+    color: #f6e7d8;
+}
+#Pais{
+    background-color: #303030;
+    max-width: 150px;
+    color: #f6e7d8;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 5px;
+}
+#Estado{
+    background-color: #303030;
+    max-width: 150px;
+    color: #f6e7d8;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 5px;
+}
+#Buscar{
+    background-color: #07a5c3;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    color: #f6e7d8;
+    font-size: 13px;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px #303030;
+}
+#Buscar:hover{
+    background-image: linear-gradient(to right, #07a5c3, #78b5c2 );
+}
+
+h1{
     font-size: 40px;
 }
 
-.ajuda
-{
+.ajuda{
     font-size: 15px;
 }
 
-.cadastro
-{
+.cadastro{
     font-size: 12px;
     margin: 40px;
     padding: 15px;
@@ -90,8 +98,7 @@ h1
     justify-content: center;
 }
 
-.buttonCC
-{
+.buttonCC{
     background-color: #f4b324;
     color: #303030;
     border-radius: 20px;
@@ -103,8 +110,7 @@ h1
     
 }
 
-.buttonCP
-{
+.buttonCP{
     background-color: #f4b324;
     color: #303030;
     border-radius: 20px;
@@ -115,35 +121,29 @@ h1
     border: 0px;
 }
 
-.btn button:hover
-{
+.btn button:hover{
     background-image: linear-gradient(to right, #f4b324, #f14902);
 }
 
-h2
-{
+h2{
     margin-top: 0px;
-}
 }
 
 
 @media (max-width: 600px){
     
-body
-{
+body{
     background-color:#1c191a;
     color:#f6e7d8;
     font-family: Helvetica;
     font-size: 16px;
 }
 
-header
-{
+header{
     
 }
 
-.menu
-{
+.menu{
     background-color: #303030;
     padding: 15px;
     display: grid;
@@ -152,22 +152,19 @@ header
     
 }
 
-.Logo
-{
+.Logo{
     padding: 30px;
     margin: auto;
     
 }
 
-.Login
-{
+.Login{
    float: right;
    background-color: #303030;
 
 }
 
-.Busca
-{
+.Busca{
     width: 100%;
     margin-top: 15px;   
     text-align: center;
@@ -179,8 +176,7 @@ header
          
 }
 
-.input
-{
+.input{
     background-color: #30303050;
     outline: 0px;
     padding: 3px;
@@ -189,8 +185,7 @@ header
     
 }
 
-.Bbusca
-{
+.Bbusca{
     width: 10%;
     background-color: #303030;
     border-radius: 5px;
@@ -198,18 +193,15 @@ header
     color: #f6e7d8;
 }
 
-h1
-{
+h1{
     font-size: 40px;
 }
 
-.ajuda
-{
+.ajuda{
     font-size: 15px;
 }
 
-.cadastro
-{
+.cadastro{
     font-size: 12px;
     margin: 40px;
     padding: 15px;
@@ -221,8 +213,7 @@ h1
     justify-content: center;
 }
 
-.buttonCC
-{
+.buttonCC{
     background-color: #f4b324;
     color: #303030;
     border-radius: 20px;
@@ -234,8 +225,7 @@ h1
     
 }
 
-.buttonCP
-{
+.buttonCP{
     background-color: #f4b324;
     color: #303030;
     border-radius: 20px;
@@ -246,13 +236,11 @@ h1
     border: 0px;
 }
 
-.btn button:hover
-{
+.btn button:hover{
     background-image: linear-gradient(to right, #f4b324, #f14902);
 }
 
-h2
-{
+h2{
     margin-top: 0px;
 }
 }
