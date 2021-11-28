@@ -34,6 +34,8 @@ h1{
 fieldset{
     color: #f6e7d8;
     padding: 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 input{
@@ -48,6 +50,8 @@ input{
 .NS{
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
    
 
 }
@@ -59,6 +63,10 @@ input{
 
 #nome{
     width: 70%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
 }
 
 .Sobrenome{
@@ -67,12 +75,16 @@ input{
 
 #sobrenome{
     width: 70%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
 }
 
 .ET{
     display: grid;
     grid-template-columns: 50% 50%;
-   
+    margin-bottom: 10px;
 
 }
 
@@ -83,6 +95,10 @@ input{
 
 #email{
     width: 70%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
 }
 
 .telefone{
@@ -91,30 +107,172 @@ input{
 
 #phone{
     width: 70%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
 }
 
-@media (max-width:900px){
-    .NS{
-        white-space: normal;
-        display: inline;
-    }
-    .nome{
-        padding-left: 10px;
-        padding-top: 5px;
-    }
-    .Sobrenome{
-        padding: 10px;
-    
-    }
-    #nome{
-        width: 70%;
-    }
-    #sobrenome{
-        width: 75%;
-    }
+.NCPF{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
 }
+.nascimento{
+    white-space: nowrap;
+}
+#nascimento{
+    width: 60%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+
+.cpf{
+    white-space: nowrap;
+}
+
+#cpf{
+    width: 70%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+
+.SNH{
+    display: grid;
+    grid-template-rows: ;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.senha > input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+.csenha > input{
+    margin-bottom: 5px;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+.feed{
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.CEP{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#CEP{
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+
+.PEM{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#pais{
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    background-color: #303030;
+    color: #f6e7d8;
+    padding: 3px;
+}
+#estado{
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    background-color: #303030;
+    color: #f6e7d8;
+    padding: 3px;
+}
+#municipio{
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+
+.EC{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#endereco{
+    width: 90%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+#complemento{
+    width: 80%;
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    padding: 3px;
+}
+
+.document{
+    padding: 10px;
+}
+.document > input{
+    background-color: #07a5c3;
+    color: #303030;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.cadastrar{
+    float: right;
+    background-color: #f4b324;
+    border: 0px;
+    color: #303030;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 5px 5px 10px #303030;
+    margin: 10px;
+
+}
+.cadastrar:hover{
+    background-image: linear-gradient(to right, #f4b324, #f14902);
+}
+
+.servicos{
+    padding: 10px;
+    text-align: center;
+    color: #f6e7d8;
+}
+#servicos{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
 
 @media (max-width:600px){
+    .Logo{
+        text-align: center;
+    }
+
     .NS{
         white-space: normal;
         display: inline;
@@ -142,5 +300,29 @@ input{
     }
     .telefone{
         padding: 5px;
+    }
+
+    .senha{
+        padding: 5px;
+    }
+    .csenha{
+        padding: 5px;
+    }
+
+    .NCPF{
+        white-space: normal;
+        display: inline;
+    }
+    .nascimento{
+        padding: 5px;
+    }
+    .cpf{
+        padding: 5px;
+    }
+    #nascimento{
+        width: 40%;
+    }
+    #cpf{
+        width: 40%;
     }
 }
