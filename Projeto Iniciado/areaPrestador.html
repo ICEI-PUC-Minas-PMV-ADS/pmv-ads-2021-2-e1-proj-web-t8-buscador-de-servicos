@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do Prestador</title>
+    <link rel="stylesheet" href="areadoprestador.css">
+</head>
+
+<header>
+<div class="Logo">
+
+<form method= "get"action="areadoprestador.html">
+    <input type="image" src = "img/Logo branca.png"width=300px></input>
+    </form>
+   </div>
+</header>
+
+<body>
+    <Div>
+        <h1> Área do Prestador </h1>
+    </Div>
+
+    <style>
+        table, th, td {
+         border: 1px solid white;
+         border-collapse: collapse;
+         padding: 5px 10px;
+        }
+    </style>
+
+            
+    <div class="div-tabela">
+        <div>
+            <table border = "1" >
+            <h2> Histórico de Serviços </h2>
+            <table class="table table-bordered">
+        <thead>
+            <tr id="tabelaHS">
+                <th scope="col">Cliente</th>
+                <th scope="col"> Data </th>
+                <th scope="col"> Horário </th>
+                <th scope="col">Orçamento</th>
+                <th scope="col">Status do Serviço</th>
+                <th scope="col">Avaliação do Serviço</th>
+                <th scope="col">Iniciar Chat</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaHS2">
+            <tr>
+                <td scope="row"> Paulo </td>
+                <td> </td>
+                <td> </td>
+                <td> <a href="OrçamentoP.html"><img src="img/logo orçamento espera.png" Class="espera"></a></td>
+                <td class="table-danger">Aberto</td>
+                <td></td>
+                <td> <a href="Chat.html"> <img src = "img/logo-chat.png" class="chat" alt="Iniciar Chat"></a></td>
+            </tr>
+            <tr>
+                <td scope="row"> Fernanda </td>
+                <td> </td>
+                <td> </td>
+                <td><a href="OrçamentoP.html"><img src="img/logo orçamento aceito.png" Class="aceito"></a></td></td>
+                <td class="table-warning">Em Andamento</td>
+                <td></td>
+                <td> <a href="Chat.html"> <img src = "img/logo-chat.png" class="chat" alt="Iniciar Chat"></a></td>
+            </tr>
+            <tr>
+                <td scope="row"> Miguel </td>
+                <td> </td>
+                <td> </td>
+                <td><a href="OrçamentoP.html"><img src="img/logo orçamento aceito.png" Class="aceito"></a></td>
+                <td class="table-success"> Concluído </td>
+                <td><a href="avaliaPretador.html" <img src = "img/Logo estrela.png" class="estrela"> <img src = "img/Logo estrela.png" class="estrela"> <img src = "img/Logo estrela.png" class="estrela"> <img src = "img/Logo estrela.png" class="estrela"> <img src = "img/Logo estrela.png" class="estrela"></a></td> 
+                <td><a href="Chat.html"> <img src = "img/logo-chat.png" class="chat" alt="Iniciar Chat"></a></td>
+            </tr>
+            <tr>
+                <td scope="row"> Marina </td>
+                <td> </td>
+                <td> </td>
+                <td><a href="OrçamentoP.html"><img src="img/logo orçamento aceito.png" Class="aceito"></a></td>
+                <td class="table-success"> Concluído </td>
+                <td><a href="avaliaPretador.html" <img src = "img/Logo estrela.png" class="estrela"> <img src = "img/Logo estrela.png" class="estrela"> <img src = "img/Logo estrela.png" class="estrela"> <img src = "img/Logo estrela.png" class="estrela"></a></td> 
+                <td><a href="Chat.html"> <img src = "img/logo-chat.png" class="chat" alt="Iniciar Chat"></a></td>
+            </tr>
+
+    <div class="div-dados">
+        <div>
+            <table border = "1" >
+                <h2> Agenda de Serviços </h2>
+                <table class="table table-bordered">
+                <thead>
+                    <tr id="tabelaAS">
+                        <th scope="col">Horário</th>
+                        <th scope="col">Segunda</th>
+                        <th scope="col"> Terça</th>
+                        <th scope="col"> Quarta</th>
+                        <th scope="col"> Quinta</th>
+                        <th scope="col"> Sexta</th>
+                        <th scope="col"> Sábado</th>
+                     </tr>
+                </thead>
+                <tbody id="tabelaAS">
+                    <tr>
+                        <td scope="row">7h às 10h</td>
+                        <td> <img src="img/logo confirma.png" class="confirma" alt="Segunda"> </td> 
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td scope="row">10h às 12h</td>
+                        <td> </td> 
+                        <td> <img src="img/logo confirma.png" class="confirma" alt="Terça"> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td scope="row">14h às 16h</td>
+                        <td> </td> 
+                        <td>  </td>
+                        <td> <img src="img/logo confirma.png" class="confirma" alt="Quarta"> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td scope="row">16h às 18h</td>
+                        <td> </td> 
+                        <td>  </td>
+                        <td>  </td>
+                        <td> </td>
+                        <td><img src="img/logo confirma.png" class="confirma" alt="Sexta"></td>
+                        <td> </td>
+                    </tr>           
+        
+        </tbody>
+    </table>
+</div>                         
+
+</body>
+   
+</html>
