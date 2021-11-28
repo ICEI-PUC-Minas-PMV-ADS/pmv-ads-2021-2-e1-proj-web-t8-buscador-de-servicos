@@ -1,5 +1,4 @@
 function duplicarCampos(){
-	//var clone = document.getElementById('origem').cloneNode(true);
 	var clone = document.querySelector(".origem");
 	document.body.appendChild(clone.cloneNode(true));
 	var destino = document.getElementById('destino');
@@ -15,7 +14,3 @@ function duplicarCampos(){
 	
 }
 
-function removerCampos(id){
-	var node1 = document.getElementById('destino');
-	node1.removeChild(node1.childNodes[0]);
-}

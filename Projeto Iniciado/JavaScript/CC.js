@@ -11,28 +11,26 @@ function CadastrarP(){
          Estado      = $("#estado").val(),
          Municipio   = $("#municipio").val(),
          endereço    = $("#endereco").val(),
-         compl       = $("#complemento").val(),
-         trabalho    = $("#checkbox pintura, #checkbox eletrica, #checkbox marcenaria, checkbox limpeza, checkbox piscina, checkbox pets, checkbox alvenaria").val()
-    var cadInicial = [
+         compl       = $("#complemento").val()
+    var cadInicialc = [
         {
             'id': 1,
-            'Nome': 'Bruno',
-            'Sobrenome': 'Gama',
-            'Telefone': '(11) 98777721',
-            'Email': 'bg@gmsil.com',
-            'CPF': '333.222.444-00',
+            'Nome': 'Victor',
+            'Sobrenome': 'Gammaro',
+            'Telefone': '(21) 912345678',
+            'Email': 'Vg@gmail.com',
+            'CPF': '000.111.222-33',
             'Senha': '12345',
             'Cep': '13480-333',
             'País': 'Brasil',
             'Estado': 'São Paulo',
             'Município': 'Limeira',
             'Endereço': 'Rua 6',
-            'Compl': 'ap.22',
-            'trabalho': 'Pintura'
+            'Compl': 'ap.22'
 
         }
     ]
-    var cadCompleto = [
+    var cadCompletoc = [
         {
             'Nome': Nome,
             'Sobrenome': Sobrenome,
@@ -45,20 +43,19 @@ function CadastrarP(){
             'Estado': Estado,
             'Município': Municipio,
             'Endereço': endereço,
-            'Compl': compl,  
-            'trabalho': trabalho
+            'Compl': compl  
         }
     ] 
 
-    var adicionaCad = JSON.parse (localStorage.getItem("cadCompleto"));
-        if (!adicionaCad){
-            adicionaCad = cadInicial
+    var adicionaCadc = JSON.parse (localStorage.getItem("cadCompletoc"));
+        if (!adicionaCadc){
+            adicionaCadc = cadInicialc
         };
 
         
         let novoId = 1;
-        if (adicionaCad.length != 0)
-        novoId = adicionaCad[adicionaCad.length - 1].id + 1;
+        if (adicionaCadc.length != 0)
+        novoId = adicionaCadc[adicionaCadc.length - 1].id + 1;
             let novoCad = {
                 'id': novoId,
                 'Nome':$("#nome").val(),
@@ -72,37 +69,13 @@ function CadastrarP(){
                 'Estado': $("#estado").val(),
                 'Município': $("#municipio").val(),
                 'Endereço':  $("#endereco").val(),
-                'Compl':$("#complemento").val(),
-                'trabalho':$("#checkbox pintura, #checkbox eletrica, #checkbox marcenaria, checkbox limpeza, checkbox piscina, checkbox pets, checkbox alvenaria").val()
+                'Compl':$("#complemento").val()
             }  
 
-            adicionaCad.push(novoCad);
+            adicionaCadc.push(novoCad);
     
-            localStorage.setItem("cadCompleto", JSON.stringify(adicionaCad));
+            localStorage.setItem("cadCompleto", JSON.stringify(adicionaCadc));
         
             alert ('Cadastro realizado com sucesso!');
             
-        }  
-        var contaP = JSON.parse (localStorage.getItem("cadCompleto"));
-
-    
-        document.getElementById("numP").innerHTML= ("Existem " + contaP.length + " profissionais na área desejada.");
-        
-        
-            
-
-function login()
-{
-    localStorage.setItem("cadCompleto")
-    if ('Email' = $("nome_login")) 
-    {
-        if ('Senha' = $("#email_login")) 
-        {
-            window.location.href = "areaPrestador.html";
-        }   
-    }
-    elsea
-    {
-        alert ('senha ou email incorretos');
-    }
-}
+        }           

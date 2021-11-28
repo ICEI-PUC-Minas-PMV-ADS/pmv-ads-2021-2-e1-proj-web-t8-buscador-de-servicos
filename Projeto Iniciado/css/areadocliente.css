@@ -45,8 +45,10 @@ p{
     text-align: center;
     border-radius: 10px;
     box-shadow: 3px 3px 5px #303030;
+    color: #303030;
     padding: 5px;
     border: 0px;
+    text-shadow: 1px 1px 5px #303030;
 }
 
 .btn-novo:hover{
@@ -136,6 +138,7 @@ label{
     color: #303030;
     font-weight: 600;
     border: none;
+    text-shadow: 1px 1px 5px #303030;
 }
 
 #editar:hover{

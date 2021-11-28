@@ -6,7 +6,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
             <title>  BSG - Solicitação de Orçamento </title>
             <link rel="stylesheet" href="/Projeto Iniciado/css/Format.css">
-            <link rel="stylesheet" type="text/css" href="/Projeto Iniciado/css/.css">
+            <link rel="stylesheet" type="text/css" href="/Projeto Iniciado/css/Orçamento.css">
             <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
         </head>
@@ -14,7 +14,7 @@
         <body>
             <header>
             
-                <div class="logo"><!--logo(volta para home)-->
+                <div class="Logo"><!--logo(volta para home)-->
             
                     <form method="get" action="Index.html">
             
@@ -29,12 +29,12 @@
             <form>
                 <script src="/Projeto Iniciado/JavaScript/O.js"></script>
                 <div class="origem"><!--div para dulpicação no JS-->
-                
+                    <h2>Orçamentos</h2>
                     <fieldset><!--Solicitação do Orçamento-->
                     
-                        <label>Tipo do serviço:<!--Seletor de serviço para ser direcionado aos prestadores.-->
+                        <label class="servico">Tipo do serviço:<!--Seletor de serviço para ser direcionado aos prestadores.-->
                         
-                            <select name="Serviço" required>
+                            <select id="servico" name="Serviço" required>
                                 
                                 <option value="Serviço">Selecione o serviço</option>
                                 <option value="Pintura">Pintura</option>
@@ -49,17 +49,21 @@
                         
                         </label>
                         
-                        <label>
+                        <label class="Descrição">
                             
                             <input type="text" name="Descrição" id="Descrição" placeholder="Descreva aqui o serviço" required>
                         
                         </label>
                         <input id="Adicionar" type="button" value="Adicionar" onclick="duplicarCampos();" />
-                        <input type="submit" value="Enviar">
+                        
                     </fieldset>
+
+                    
                 </div>
                 
                 <div id="destino"></div>
+
+                <input id="Enviar" type="submit" value="Enviar">
 
             </form>
         
