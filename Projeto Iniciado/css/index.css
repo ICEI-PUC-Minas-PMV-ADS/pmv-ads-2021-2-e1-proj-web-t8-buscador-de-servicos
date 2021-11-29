@@ -5,9 +5,7 @@ body{
     font-size: 16px;
 }
 
-header{
-    
-}
+
 
 .menu{
     background-color: #303030;
@@ -73,6 +71,11 @@ header{
     font-size: 13px;
     font-weight: 500;
     text-shadow: 2px 2px 5px #303030;
+
+}
+
+#Buscar a{
+    text-decoration: none;
 }
 #Buscar:hover{
     background-image: linear-gradient(to right, #07a5c3, #78b5c2 );
@@ -139,9 +142,7 @@ body{
     font-size: 16px;
 }
 
-header{
-    
-}
+
 
 .menu{
     background-color: #303030;
