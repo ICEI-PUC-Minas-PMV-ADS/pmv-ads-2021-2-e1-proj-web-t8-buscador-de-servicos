@@ -140,6 +140,10 @@ label{
     background-image: linear-gradient(to right, #07a5c3, #78b5c2 );
 
 }
+.logar a{
+    text-decoration: none;
+    color: white;
+}
 
 .MS{
     margin-top: 10px;
