@@ -1,8 +1,8 @@
 function duplicarCampos(){
 	var clone = document.querySelector(".origem");
 	document.body.appendChild(clone.cloneNode(true));
-	var destino = document.getElementById('destino');
-	destino.appendChild (clone.cloneNode(true));
+	/*var destino = document.getElementById('destino');
+	destino.appendChild (clone.cloneNode(true));*/
 	
 	//var camposClonados = clone.getElementsByTagName('input');
 	
