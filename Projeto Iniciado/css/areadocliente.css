@@ -15,8 +15,9 @@ th, td {
 }
 h1{
     background-color: #f4b324;
-    width: 100%;
+    width: 98.5%;
     text-align: center;
+    border-radius: 10px;
     font-weight: 600 !important;
     padding: 10px;
 }
@@ -24,6 +25,7 @@ h1{
 h2{
     background-color: #f4b324;
     text-align: center;
+    border-radius: 10px;
     font-weight: 500 !important;
     padding: 5px;
     }
@@ -43,7 +45,7 @@ p{
     width: 100%;
     font-size: x-large;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 3px 3px 5px #303030;
     color: #303030;
     padding: 5px;
@@ -56,7 +58,7 @@ p{
 }
 
 .logo-chat{
-    width: 70%; height: 70%;
+    width: 80px; height: 40px;
 }
 
 .logo{
@@ -79,7 +81,7 @@ p{
 }
 
 .div-tabela > h2{
-    border-radius: 20px;
+    border-radius: 10px;
     }
 
 /* palavra deveria ficar a direita, linha 86*/
