@@ -86,6 +86,5 @@ p{
 }
 
 .btn-novo:hover{
-	padding: 10px;
     background-image: linear-gradient(to right, #f4b324, #f14902);
 }
