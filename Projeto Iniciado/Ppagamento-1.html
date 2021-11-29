@@ -1,195 +1,218 @@
 <!DOCTYPE html>
 <html lang="port-br">
 <head>
- 
-			<link rel="shortcut icon" href=" img / favicon.ico" type="image / x-icon">
-			<meta http-equiv="atualizar" content="30" />
+	<title> BSG - Página De Pagamento</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href=" img / favicon.ico" type="image / x-icon">
+	<meta http-equiv="atualizar" content="30" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=" / Projeto Iniciado / css / index.css">
-	<title> BSG - Página De Pagamento</title>
     <link rel="stylesheet" type="text/css" href="/Projeto Iniciado/css/Ppagamento.css">
 	<script src="/ Projeto Iniciado / JavaScript / busca.js"></script>
 
-    <img src= "img/Logo L branca.png"  alt="Logo" width="300px;" height="100px">
-
 </head>
 <body>
-<h1> Finalize seu Cadastro</h1>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<div class="container" 
-for="name">Nome:</label>
-<input id= "name" name="nome" type="text" required> 
-<br>
-<p>
-<label for="sobrenome">Sobrenome:</label>   
-<input id="sobrenome" name="sobrenome" type="text" required>
- <br>
- <p>
-<label for="email">Email:</label> 
-<input id="email" name="email" type="text" required> 
-<br>
-<p>
-<form> 
-<label for="cep">CEP:</label>
-		<input id="cep" type="text" required/> 
-		<br>
-		<p>
-		<label for="logradouro">Logradouro:</label>
-		<input id="logradouro" type="text" required/> 
-		<br>
-		<p></p>
-		<label for="numero">Número:</label>
-		<input id="numero" type="text" required/>
-		 <br>
-		 <p></p>
-		<label for="complemento">Complemento:</label>
-		<input id="complemento" type="text" required/> 
-		<br>
-		<p></p>
-		<label for="bairro">Bairro:</label>
-		<input id="bairro" type="text" required/> 
-		<br>
-		<p>
-		<label for="uf">Estado:</label>
-		<select id="uf">
-			<option value="AC">Acre</option>
-			<option value="AL">Alagoas</option>
-			<option value="AP">Amapá</option>
-			<option value="AM">Amazonas</option>
-			<option value="BA">Bahia</option>
-			<option value="CE">Ceará</option>
-			<option value="DF">Distrito Federal</option>
-			<option value="ES">Espírito Santo</option>
-			<option value="GO">Goiás</option>
-			<option value="MA">Maranhão</option>
-			<option value="MT">Mato Grosso</option>
-			<option value="MS">Mato Grosso do Sul</option>
-			<option value="MG">Minas Gerais</option>
-			<option value="PA">Pará</option>
-			<option value="PB">Paraíba</option>
-			<option value="PR">Paraná</option>
-			<option value="PE">Pernambuco</option>
-			<option value="PI">Piauí</option>
-			<option value="RJ">Rio de Janeiro</option>
-			<option value="RN">Rio Grande do Norte</option>
-			<option value="RS">Rio Grande do Sul</option>
-			<option value="RO">Rondônia</option>
-			<option value="RR">Roraima</option>
-			<option value="SC">Santa Catarina</option>
-			<option value="SP">São Paulo</option>
-			<option value="SE">Sergipe</option>
-			<option value="TO">Tocantins</option>
-		</select>
-    </div>
-	</form>
-    <script type="text/javascript">
-		$("#cep").focusout(function(){
-			$.ajax({
-				url: 'https://viacep.com.br/ws/'+$(this).val()+'/json/unicode/',
-				dataType: 'json',
-				//SUCESS é referente a função que será executada caso
-				//ele consiga ler a fonte de dados com sucesso.
-				//O parâmetro dentro da função se refere ao nome da variável
-				//que você vai dar para ler esse objeto.
-				success: function(resposta){
-					//Agora basta definir os valores que você deseja preencher
-					//automaticamente nos campos acima.
-					$("#logradouro").val(resposta.logradouro);
-					$("#complemento").val(resposta.complemento);
-					$("#bairro").val(resposta.bairro);
-					$("#cidade").val(resposta.localidade);
-					$("#uf").val(resposta.uf);
-					//Vamos incluir para que o Número seja focado automaticamente
-					//melhorando a experiência do usuário
-					$("#numero").focus();
-				}
-			});
-		});
-	</script>
-</body>
-<div class="checkout-panel">
-    <div class="panel-body">
-      <h2 class="title"> Finalize sua compra </h2>
-   
-      <div class="divtres">
-        <div class="step active"></div>
-        <div class="step active"></div>
-        <div class="step"></div>
-        <div class="step"></div>
-      </div>
-   
-      <div class="metododepag">
-        <label for="card" class="method card">
-          <div class="card-logos">
-            <img src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png"/>
-            <img src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png"/>
-          </div>
-   
-          <div class="radio-input">
-            <input id="card" type="radio" name="payment">
-
-          </div>
-        </label>
-   <br>
-        <label for="paypal" class="method paypal">
-          <img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png"/>
-          <div class="radio-input">
-            <input id="paypal" type="radio" name="payment">
-           
-          </div>
-        </label>
-      </div>
-   
-      <div class="input-fields">
-        <div class="column-1">
-          <label for="cardholder">Nome idêntico ao cartão:</label> 
-          <input type="text" id="cardholder" />
-   <br>
-          <div class="small-inputs">
-            <div> <br>
-              <label for="date">Data de Validade:</label>
-              <input type="text" id="date"/>
-            </div>
-			<br>
-   
-            <div>
-              <label for="verification">Número do cartão:</label>
-              <input type="password" id="verification"/>
-            </div>
-          </div> 
-   <br>
-
+	<header>
+        <div class="Logo"><!--logo(volta para home)-->
+            <form method="get" action="Index.html">
+                <input type="image" src="/projeto iniciado/img/Logo L branca p.png" width="200px"></input>
+            </form>
         </div>
-        <div class="column-2">
-          <label for="cardnumber">Número de segurança:</label> 	  
-			<form>
-			<input type="text" id="numeorodocartao"> <br>
-			<p></p>
-			<button  class="botao3"type="submit">Enviar</button>
-		</form>
-	<br>
-		
-		  <span class="info">*Digitos de segurança do cartão, localizado geralmete na parte de tras do cartão.</span> 
-		  <br>
-		  <br>
-		  <p> Agendamento confirmado para o dia 29/11/2021 as 13:50 (BRT)</p> 
-			  <br>
+    </header>
 
-		  
+	<div class="fsc">
+		<h1> Finalize seu Cadastro</h1>
+
+		<fieldset>
+				<div class="container"> 
+					<lable class="name">Nome:
+						<input id= "name" name="nome" type="text" required> 
+					</label>
+					<br>
+					<p>
+					<label for="sobrenome">Sobrenome:   
+						<input id="sobrenome" name="sobrenome" type="text" required>
+					</label>
+					<br>
+					<p>
+					<label for="email">Email: 
+						<input id="email" name="email" type="text" required> 
+					</label>
+					<br>
+					<p>
+					<form> 
+					<label for="cep">CEP:
+						<input id="cep" type="text" required/> 
+					</label>
+					<br>
+					<p>
+					<label for="logradouro">Logradouro:
+						<input id="logradouro" type="text" required/> 
+					</label>
+					<br>
+					<p></p>
+					<label for="numero">Número:
+						<input id="numero" type="text" required/>
+					</label>
+					<br>
+					<p></p>
+					<label for="complemento">Complemento:
+						<input id="complemento" type="text" required/> 
+					</label>
+					<br>
+					<p></p>
+					<label for="bairro">Bairro:
+						<input id="bairro" type="text" required/>
+					</label> 
+					<br>
+					<p>
+					<label for="uf">Estado:
+						<select id="uf">
+							<option value="AC">Acre</option>
+							<option value="AL">Alagoas</option>
+							<option value="AP">Amapá</option>
+							<option value="AM">Amazonas</option>
+							<option value="BA">Bahia</option>
+							<option value="CE">Ceará</option>
+							<option value="DF">Distrito Federal</option>
+							<option value="ES">Espírito Santo</option>
+							<option value="GO">Goiás</option>
+							<option value="MA">Maranhão</option>
+							<option value="MT">Mato Grosso</option>
+							<option value="MS">Mato Grosso do Sul</option>
+							<option value="MG">Minas Gerais</option>
+							<option value="PA">Pará</option>
+							<option value="PB">Paraíba</option>
+							<option value="PR">Paraná</option>
+							<option value="PE">Pernambuco</option>
+							<option value="PI">Piauí</option>
+							<option value="RJ">Rio de Janeiro</option>
+							<option value="RN">Rio Grande do Norte</option>
+							<option value="RS">Rio Grande do Sul</option>
+							<option value="RO">Rondônia</option>
+							<option value="RR">Roraima</option>
+							<option value="SC">Santa Catarina</option>
+							<option value="SP">São Paulo</option>
+							<option value="SE">Sergipe</option>
+							<option value="TO">Tocantins</option>
+						</select>
+					</label>
+				</div>
+
+			</form>
+			<script type="text/javascript">
+				$("#cep").focusout(function(){
+					$.ajax({
+						url: 'https://viacep.com.br/ws/'+$(this).val()+'/json/unicode/',
+						dataType: 'json',
+						//SUCESS é referente a função que será executada caso
+						//ele consiga ler a fonte de dados com sucesso.
+						//O parâmetro dentro da função se refere ao nome da variável
+						//que você vai dar para ler esse objeto.
+						success: function(resposta){
+							//Agora basta definir os valores que você deseja preencher
+							//automaticamente nos campos acima.
+							$("#logradouro").val(resposta.logradouro);
+							$("#complemento").val(resposta.complemento);
+							$("#bairro").val(resposta.bairro);
+							$("#cidade").val(resposta.localidade);
+							$("#uf").val(resposta.uf);
+							//Vamos incluir para que o Número seja focado automaticamente
+							//melhorando a experiência do usuário
+							$("#numero").focus();
+						}
+					});
+				});
+			</script>
+		</fieldset>
+	</div>
+
+	<div class="fsc">
+			<div class="checkout-panel">
+				<div class="panel-body">
+				<h1>Finalize sua compra</h1>
+			<fieldset>
+				<div class="divtres">
+					<div class="step active"></div>
+					<div class="step active"></div>
+					<div class="step"></div>
+					<div class="step"></div>
+				</div>
+			
+				<div class="metododepag">
+					<label for="card" class="method card">
+					<div class="card-logos">
+						<img src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png"/>
+						<img src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png"/>
+					</div>
+			
+					<div class="radio-input">
+						<input id="card" type="radio" name="payment">
+
+					</div>
+					</label>
+			<br>
+					<label for="paypal" class="method paypal">
+					<img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png"/>
+					<div class="radio-input">
+						<input id="paypal" type="radio" name="payment">
+					
+					</div>
+					</label>
+				</div>
+			
+				<div class="input-fields">
+					<div class="column-1">
+					<label for="cardholder">Nome idêntico ao cartão:</label> 
+					<input type="text" id="cardholder" />
+			<br>
+					<div class="small-inputs">
+						<div> <br>
+						<label for="date">Data de Validade:</label>
+						<input type="text" id="date"/>
+						</div>
+						<br>
+			
+						<div>
+						<label for="verification">Número do cartão:</label>
+						<input type="password" id="verification"/>
+						</div>
+					</div> 
+			<br>
+
+					</div>
+					<div class="column-2">
+					<label for="cardnumber">Número de segurança:</label> 	  
+						<form>
+						<input type="text" id="numeorodocartao"> <br>
+						<p></p>
+						<button  class="botao3"type="submit">Enviar</button>
+					</form>
+				<br>
+					
+					<span class="info">*Digitos de segurança do cartão, localizado geralmete na parte de tras do cartão.</span> 
+					<p> Agendamento confirmado para o dia 29/11/2021 as 13:50 (BRT)</p> 
+						<br>
+
+					
+					</div>
+				</div>
+				</div>
+		</fieldset>
+			
+			<br>
+			
+			<div class="panel-footer">
+			<button class="botao2">voltar</button>
+			<button class="botao1">proximo</button> 
+			</div>
 		</div>
-      </div>
-    </div>
-   
-	 
-	 <br>
-	 
-    <div class="panel-footer">
-      <button class="botao2">voltar</button>
-      <button class="botao1">proximo</button> 
-    </div>
-  </div>
-  </html>
+	
+	</div>
+</body>
 
-  
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </html> 
