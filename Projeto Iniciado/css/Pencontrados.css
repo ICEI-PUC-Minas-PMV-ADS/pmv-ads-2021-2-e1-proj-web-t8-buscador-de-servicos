@@ -40,16 +40,13 @@ p{
 
 .btn-novo{
     background-color: #f4b324;
-    width: 48%;
+    width: 100%;
     font-size: x-large;
     text-align: center;
     border-radius: 10px;
     box-shadow: 3px 3px 5px #303030;
-    padding: 5px;
+    padding: 1px;
     border: 0px;
-    position: absolute;
-    right: 10px;
-    top: 636px
 }
 
 
@@ -60,17 +57,13 @@ p{
 #tabelaHS2{
     color: #f6e7d8;
 }
-.logo-chat{
-    width: 40%; height: 40%;
-}
-
 .logo{
     width: auto;
 }
 
 .div-tabela{
     display: inline-table;
-    width: 49%;
+    width: 59%;
     float: right;
 }
 
