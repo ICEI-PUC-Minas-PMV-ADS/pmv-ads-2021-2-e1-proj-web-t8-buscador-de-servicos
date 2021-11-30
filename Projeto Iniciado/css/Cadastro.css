@@ -240,6 +240,9 @@ input{
     border-radius: 5px;
     border: 0px;
 }
+.document > input:hover{
+    cursor: pointer;
+}
 
 .cadastrar{
     float: right;
@@ -256,6 +259,7 @@ input{
 }
 .cadastrar:hover{
     background-image: linear-gradient(to right, #f4b324, #f14902);
+    cursor: pointer;
 }
 
 .servicos{

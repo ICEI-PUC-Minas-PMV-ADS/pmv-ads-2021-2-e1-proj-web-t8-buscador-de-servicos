@@ -1,6 +1,13 @@
+html{
+    height: 98%;
+    width: 100%;
+}
+
 body{
     background-color: #1c191a;
     font-family: Helvetica;
+    min-height: 100%;
+    position: relative;
 }
 
 
@@ -62,6 +69,11 @@ label{
     text-shadow: 2px 2px 5px #303030;
 }
 
+footer{
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
 #Enviar{
     float: right;
     background-color: #f4b324;
@@ -129,6 +141,10 @@ input[type="number"]{
     background-color: transparent;
     border-color: transparent;
     outline: 0px;
+}
+
+input:hover{
+    cursor: pointer;
 }
 
 @media (max-width:600px){

@@ -81,13 +81,15 @@
 
         <Div>
             <a>
-                <button type="submit" href="OrçamentoC.html" class="btn-novo">Solicitar novo Serviço</button> 
+                <form method="get" action="Pdisponiveis.html">
+                    <button type="submit" class="btn-novo">Solicitar novo Serviço</button> 
+                </form>
             </a>
         </Div>
     </div>
 
     <div class="div-dados">
-        <form class="form" action="">
+
                 <div class="card">
                     <div class="card-login">
                         <label>Nome Completo</label>
@@ -108,9 +110,11 @@
                         <p>Mostrar e-mail</p>
                     </div>
                     <div id="btne">
-                        <button href="CadastroC.html" id="editar">Editar</button>
+                        <form method="get" action="CadastroC.html">
+                            <button href="CadastroC.html" id="editar">Editar</button>
+                        </form>
                     </div>
-        </form>
+        
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

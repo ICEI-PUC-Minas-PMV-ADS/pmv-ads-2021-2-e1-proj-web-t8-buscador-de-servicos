@@ -79,6 +79,7 @@ body{
 }
 #Buscar:hover{
     background-image: linear-gradient(to right, #07a5c3, #78b5c2 );
+    cursor: pointer;
 }
 
 h1{
@@ -126,6 +127,7 @@ h1{
 
 .btn button:hover{
     background-image: linear-gradient(to right, #f4b324, #f14902);
+    cursor: pointer;
 }
 
 h2{

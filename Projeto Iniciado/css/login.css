@@ -138,11 +138,7 @@ label{
 }
 .logar > button:hover{
     background-image: linear-gradient(to right, #07a5c3, #78b5c2 );
-
-}
-.logar a{
-    text-decoration: none;
-    color: white;
+    cursor: pointer;
 }
 
 .MS{

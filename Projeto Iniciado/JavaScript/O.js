@@ -1,5 +1,5 @@
 function duplicarCampos(){
-	var clone = document.querySelector(".origem");
+	var clone = document.querySelector(".duplicar");
 	document.body.appendChild(clone.cloneNode(true));
 	/*var destino = document.getElementById('destino');
 	destino.appendChild (clone.cloneNode(true));*/
