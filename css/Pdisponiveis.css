@@ -1,0 +1,111 @@
+body{
+    background-color: #1c191a;
+    font-family: Helvetica;
+    min-height: 100%;
+}
+
+header{
+    background-color: #303030;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas: "cabecalho cabecalho";
+}
+
+.Logo{
+    padding: 50px;
+    float: left;
+}
+
+h1{
+    background-color: #f4b324;
+    color: #1c191a;
+    width: 98%;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    position: relative;
+}
+h3{
+    padding: 10px;
+    position: relative;
+    color: #f6e7d8;
+    font-size: 15px;
+}
+.image{
+    text-align: center;
+}
+
+h2{
+    background-color: #f4b324;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    position: relative;
+}
+
+.card{
+    width: 100%;
+}
+
+input[type="text"]{
+    
+    padding: 9px;
+    padding-right: 0px;
+    background-color: #303030;
+    color: #f6e7d8;
+    border: none;
+    outline: 0px;
+    width: 98%;
+}
+
+select{
+    
+    padding: 9px;
+    background-color: #303030;
+    color: #f6e7d8;
+    border: none;
+    outline: 0px;
+    width: 100%;
+}
+
+#fundo{
+    background-color: #303030;
+    
+}
+
+.btn-novo{
+    background-color: #f4b324;
+    width: 100%;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #303030;
+    padding: 5px;
+    border: 0px;
+    margin-top: 10px;
+}
+.btn-novo:hover{
+    background-image: linear-gradient(to right, #f4b324, #f14902);
+    cursor: pointer;
+}
+
+.centro{
+    display: inline-table;
+    width: 49.5%;
+}
+p{
+    background-color: #f4b324;
+    padding: 10px;
+    margin: 0px;
+}
+
+@media (max-width:600px){
+    .centro{
+        width: 100%;
+    }
+
+    .Logo{
+        text-align: center;
+    }
+}
