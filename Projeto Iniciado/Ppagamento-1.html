@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=" / Projeto Iniciado / css / index.css">
     <link rel="stylesheet" type="text/css" href="/Projeto Iniciado/css/Ppagamento.css">
-	<script src="/ Projeto Iniciado / JavaScript / busca.js"></script>
+	
 
 </head>
 <body>
@@ -206,7 +206,7 @@
 			
 			<div class="panel-footer">
 			<button class="botao2">voltar</button>
-			<button class="botao1">proximo</button> 
+			<button class="botao1" onclick="btalerta()">proximo</button> 
 			</div>
 		</div>
 	
@@ -214,5 +214,10 @@
 </body>
 
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  </html> 
+<script>
+	function btalerta (){
+    alert("Seu serviço foi agendado com sucesso!");
+}
+</script>  
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</html> 
